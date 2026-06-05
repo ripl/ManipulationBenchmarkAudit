@@ -1,0 +1,41 @@
+{
+  "altered_condition": {
+    "name": "resampled_pose",
+    "perturbation": "override only continuous pose/orientation fields for blocks whose symbolic initial state is table",
+    "protocol": "calvin_official_d_table_resets_v1",
+    "reset_bank": "<EXCLUDED_BINARY_RESET_BANK_NPZ>",
+    "reset_bank_exclusion": "The CALVIN resampled-pose reset bank is a binary NumPy archive rather than a text-auditable artifact, so it is omitted from the public release package to avoid hidden provenance leakage.",
+    "reset_seed": 0,
+    "scene_d_table_high_xyz": [
+      0.35,
+      -0.03,
+      0.46
+    ],
+    "scene_d_table_low_xyz": [
+      0.0,
+      -0.15,
+      0.46
+    ],
+    "sequence_manifest": "results/calvin/manifests/abc_d_official_1000seq_workers4.json",
+    "yaw": "official initial_orn:any-style random yaw"
+  },
+  "benchmark": "CALVIN ABC->D long-horizon evaluation",
+  "calibration_condition": {
+    "name": "calibration",
+    "reset_bank": null,
+    "reset_function": "CALVIN official get_env_state_for_initial_condition unchanged",
+    "sequence_manifest": "results/calvin/manifests/abc_d_official_1000seq_workers4.json"
+  },
+  "chunk_size": 250,
+  "num_chunks": 4,
+  "num_sequences": 1000,
+  "paper_term": "distribution_overfitting",
+  "policies": [
+    "X-VLA",
+    "GR-1",
+    "RoboFlamingo"
+  ],
+  "schema": "calvin_resampled_pose_distribution_config_v1",
+  "sequence_workers": 4,
+  "xvla_ep_len": 360
+}

@@ -1,0 +1,25 @@
+overfitting_type,benchmark,test_set,policy,metric,calibration,comparison_result,drop,ci_lower,ci_upper,unit,ci_method
+distribution overfitting,SimplerEnv,Reverse language,CogACT-Base,success rate,60/288,28/288,+11.11,+5.26,+16.95,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Stacked support,CogACT-Base,success rate,60/288,64/288,-1.39,-8.09,+5.33,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Random pose + arm,CogACT-Base,success rate,60/288,31/288,+10.07,+4.13,+15.99,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Reverse language,InternVLA-M1,success rate,73/288,46/288,+9.38,+2.76,+15.91,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Stacked support,InternVLA-M1,success rate,73/288,60/288,+4.51,-2.38,+11.35,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Random pose + arm,InternVLA-M1,success rate,73/288,46/288,+9.38,+2.76,+15.91,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Reverse language,X-VLA-WidowX,success rate,172/288,153/288,+6.60,-1.49,+14.57,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Stacked support,X-VLA-WidowX,success rate,172/288,90/288,+28.47,+20.46,+35.96,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Random pose + arm,X-VLA-WidowX,success rate,172/288,160/288,+4.17,-3.88,+12.14,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Reverse language,Dexbotic (DB-MemVLA),success rate,129/288,137/288,-2.78,-10.84,+5.33,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Stacked support,Dexbotic (DB-MemVLA),success rate,129/288,79/288,+17.36,+9.54,+24.89,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,SimplerEnv,Random pose + arm,Dexbotic (DB-MemVLA),success rate,129/288,112/288,+5.90,-2.14,+13.84,percentage points,Newcombe-Wilson difference of proportions
+distribution overfitting,CALVIN,resampled-pose,X-VLA,ATC,4.165,3.138,+1.027,+0.890,+1.164,tasks completed out of 5,paired row-level Wald
+distribution overfitting,CALVIN,resampled-pose,X-VLA,5/5 chain success,709/1000,459/1000,+25.00,+21.29,+28.71,percentage points,paired row-level Wald
+distribution overfitting,CALVIN,resampled-pose,GR-1,ATC,3.244,2.495,+0.749,+0.624,+0.874,tasks completed out of 5,paired row-level Wald
+distribution overfitting,CALVIN,resampled-pose,GR-1,5/5 chain success,431/1000,296/1000,+13.50,+10.23,+16.77,percentage points,paired row-level Wald
+distribution overfitting,CALVIN,resampled-pose,RoboFlamingo,ATC,2.367,1.869,+0.498,+0.372,+0.624,tasks completed out of 5,paired row-level Wald
+distribution overfitting,CALVIN,resampled-pose,RoboFlamingo,5/5 chain success,209/1000,145/1000,+6.40,+3.57,+9.23,percentage points,paired row-level Wald
+sample overfitting,LIBERO,fresh-init-state,Spatial Forcing,success rate,1956/2000,9718/10000,+0.62,-0.18,+1.27,percentage points,Newcombe-Wilson difference of proportions
+sample overfitting,LIBERO,fresh-init-state,SimVLA,success rate,1946/2000,9760/10000,-0.30,-1.15,+0.40,percentage points,Newcombe-Wilson difference of proportions
+sample overfitting,LIBERO,fresh-init-state,$\pi_{0.5}$ / LeRobot,success rate,1951/2000,9741/10000,+0.14,-0.69,+0.82,percentage points,Newcombe-Wilson difference of proportions
+sample overfitting,CALVIN,fresh-sequence,X-VLA,ATC,4.165,4.1795,-0.0145,-0.1287,+0.0997,tasks completed out of 5,independent two-sample Wald
+sample overfitting,CALVIN,fresh-sequence,GR-1,ATC,3.244,3.1370,+0.1070,-0.0373,+0.2513,tasks completed out of 5,independent two-sample Wald
+sample overfitting,CALVIN,fresh-sequence,RoboFlamingo,ATC,2.367,2.2980,+0.0690,-0.0677,+0.2057,tasks completed out of 5,independent two-sample Wald

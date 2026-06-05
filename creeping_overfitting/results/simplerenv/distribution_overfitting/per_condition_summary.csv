@@ -1,0 +1,8 @@
+condition,successes,total,success_rate,error_rows,timeout_rows
+random_pose,471,1440,0.32708333,0,0
+random_pose_arm,373,1440,0.25902778,0,0
+reverse_language,376,1440,0.26111111,0,0
+blue_on_red_relation,330,1440,0.22916667,0,0
+red_on_blue_relation,387,1440,0.26875000,0,0
+stacked_support,343,1440,0.23819444,0,0
+five_color_compositional_stack,272,1440,0.18888889,0,0

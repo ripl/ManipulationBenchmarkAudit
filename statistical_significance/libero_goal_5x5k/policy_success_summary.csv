@@ -1,0 +1,6 @@
+policy_slug,display_name,tracker_id,reported_libero_goal_percent,rows,unique_instance_ids,successes,errors,success_rate,success_percent
+spatial_forcing,Spatial Forcing,438,98.8,5000,5000,4931,0,0.9862,98.62
+openvla_oft,OpenVLA-OFT,241,97.9,5000,5000,4913,0,0.9826,98.26
+hif_vla,HiF-VLA,271,97.4,5000,5000,4902,0,0.9804,98.04
+simvla,SimVLA,798,98.6,5000,5000,4895,0,0.979,97.9
+pi05_n_action_steps_10,"Pi0.5 / LeRobot, n_action_steps=10",869,98.0,5000,5000,4901,0,0.9802,98.02

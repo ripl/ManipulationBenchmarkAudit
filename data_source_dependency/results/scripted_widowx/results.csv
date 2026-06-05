@@ -1,0 +1,5 @@
+task,successes,trials,success_rate,source_type
+stack,24,24,1.0000000000,scripted_demo
+carrot,23,24,0.9583333333,scripted_demo
+spoon,21,24,0.8750000000,scripted_demo
+eggplant,23,24,0.9583333333,scripted_demo

@@ -1,0 +1,110 @@
+{
+  "release_name": "ManipulationBenchmarkAudit minimal public release",
+  "release_date": "2026-06-05",
+  "package_policy": {
+    "included_file_types": ["csv", "json", "yaml", "md", "py"],
+    "excluded_artifacts": [
+      "model weights",
+      "datasets",
+      "rollout videos",
+      "full rollout directories",
+      "full observations",
+      "per-step action traces",
+      "simulator caches",
+      "conda environments",
+      "containers",
+      "raw logs",
+      "third-party source checkouts",
+      "Git metadata",
+      "credential files",
+      "tokens",
+      "passwords",
+      "secret keys",
+      "browser state"
+    ],
+    "private_provenance_policy": "Private paths, hostnames, job IDs, usernames, and W&B links are acceptable only if credential-clean; this package minimizes them."
+  },
+  "source_candidates_used": [
+    {
+      "path": "/home/ripl/workspace/corl_2026_supp",
+      "role": "curated release source for shortcut solvability, creeping overfitting, and DSD files",
+      "git_commit": "d81bb7bbd18cb420c2c712668a8ee99f4c9c6cd7",
+      "worktree_status": "clean when copied"
+    },
+    {
+      "path": "/home/ripl/workspace/Data_Source_Dependency_CoRL_git/paper_artifacts/widowx_scripted_dsd_20260521",
+      "role": "DSD provenance candidate; public package uses the curated DSD subset",
+      "git_commit": "ef88a2cb23e754307b5f70053e820d3c437bec49",
+      "worktree_status": "clean when inspected"
+    },
+    {
+      "path": "bh:/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+      "role": "verified CALVIN fresh-sequence artifact provenance",
+      "git_commit": "eba7c0037294557427a7a854c91be56d3f2838ec",
+      "worktree_status": "main matched origin/main when inspected; unrelated third-party submodule dirt was outside the curated public package"
+    },
+    {
+      "path": "bh:/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right",
+      "role": "internal LIBERO init-state provenance exposed by parent gitlink",
+      "git_commit": "3fc77b643c2c1a2b33061cfc7b7fc7c0054d5b9e",
+      "worktree_status": "main matched origin/main when inspected; parent recorded LIBERO gitlink 0b7f0ecaafb5b500f39cbbafbd62dc53aec9d8e1"
+    }
+  ],
+  "source_candidates_inspected_not_copied_directly": [
+    {
+      "path": "/home/ripl/workspace/scratch/overfit_ci_agent_3/remote_artifacts",
+      "role": "local scratch mirror for SimplerEnv, CALVIN, and LIBERO candidate artifacts",
+      "reason": "The curated release source contained the same selected lightweight public-facing summaries with clearer sanitization."
+    }
+  ],
+  "artifact_groups": [
+    {
+      "directory": "shortcut_solvability",
+      "owner": "benchmark audit shortcut-solvability diagnostic",
+      "public_status": "included",
+      "claim_ids": ["shortcut_libero", "shortcut_calvin"],
+      "source": "/home/ripl/workspace/corl_2026_supp/shortcut_solvability",
+      "notes": "Includes compact result summaries, configs, and per-trial/per-sequence CSVs. Excludes training/evaluation code, checkpoints, datasets, and logs."
+    },
+    {
+      "directory": "statistical_significance",
+      "owner": "benchmark audit statistical-significance diagnostic",
+      "public_status": "included_public_recomputed",
+      "claim_ids": ["libero_goal_pairwise_d"],
+      "source": "Internal Eval_Policies_CoRL LIBERO Goal 5x5k package recorded as results/libero/sam_exports/libero_goal_5x5k_for_sam_20260515T052653Z at commit a415f11",
+      "notes": "Includes policy_success_summary.csv, pairwise_disagreement.csv, five per-policy episodes_combined.csv files, five policy_summary.json files, and shared config/init-state provenance. scripts/recompute_claims.py verifies shared instance IDs and recomputes every pairwise D value plus mean and median D."
+    },
+    {
+      "directory": "creeping_overfitting",
+      "owner": "benchmark audit creeping-overfitting diagnostic",
+      "public_status": "included_public_recomputed",
+      "claim_ids": ["simplerenv_fixed_grid", "simplerenv_protocol_abcde", "calvin_protocol1", "calvin_fresh_sequence", "libero_layer2"],
+      "source": "/home/ripl/workspace/corl_2026_supp/creeping_overfitting",
+      "notes": "Includes SimplerEnv rows/summaries, CALVIN rows/summaries, and LIBERO summary CSVs. Excludes LIBERO per-episode rollout rows, CALVIN full manifests/reset banks, raw logs, videos, checkpoints, datasets, caches, and environments. CALVIN fresh artifact provenance is verified at Eval_Policies_CoRL commit eba7c0037294557427a7a854c91be56d3f2838ec."
+    },
+    {
+      "directory": "data_source_dependency",
+      "owner": "benchmark audit data-source-dependency diagnostic",
+      "public_status": "included",
+      "claim_ids": ["widowx_scripted_dsd_91_of_96"],
+      "source": "/home/ripl/workspace/corl_2026_supp/data_source_dependency",
+      "notes": "Includes sanitized config, per-task/overall summaries, and one row per official grid episode. Excludes datasets, checkpoints, videos, and full training/eval directories."
+    }
+  ],
+  "validation": {
+    "recompute_script": "scripts/recompute_claims.py",
+    "release_validation_script": "scripts/validate_release.py",
+      "expected_public_recompute": [
+      "LIBERO Goal pairwise D from 5x5k shared-instance rows",
+      "DSD 91/96",
+      "SimplerEnv fixed-grid summaries from rows",
+      "SimplerEnv Protocol A-E summaries from rows",
+      "CALVIN combined summaries from per-sequence rows",
+      "LIBERO Layer 2 policy-level summary from released summary CSVs",
+      "shortcut-solvability result summaries from per-trial/per-sequence rows"
+    ],
+    "expected_intentional_exclusions": [
+      "LIBERO Layer 2 per-episode rollout rows; the released policy-level summary claim is checked from released summary CSVs"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+policy,policy_label,suite,successes,rows,errors,success_rate,validation_status
+spatial_forcing,Spatial Forcing,libero_spatial,497,500,0,0.994000,passed
+spatial_forcing,Spatial Forcing,libero_object,498,500,0,0.996000,passed
+spatial_forcing,Spatial Forcing,libero_goal,491,500,0,0.982000,passed
+spatial_forcing,Spatial Forcing,libero_10,470,500,0,0.940000,passed
+simvla,SimVLA,libero_spatial,492,500,0,0.984000,passed
+simvla,SimVLA,libero_object,498,500,0,0.996000,passed
+simvla,SimVLA,libero_goal,484,500,0,0.968000,passed
+simvla,SimVLA,libero_10,472,500,0,0.944000,passed
+pi05_lerobot,Pi05 / LeRobot,libero_spatial,491,500,0,0.982000,passed
+pi05_lerobot,Pi05 / LeRobot,libero_object,498,500,0,0.996000,passed
+pi05_lerobot,Pi05 / LeRobot,libero_goal,490,500,0,0.980000,passed
+pi05_lerobot,Pi05 / LeRobot,libero_10,472,500,0,0.944000,passed

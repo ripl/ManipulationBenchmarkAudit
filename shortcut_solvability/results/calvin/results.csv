@@ -1,0 +1,4 @@
+paper_cell,training_data,eval_split,artifact_dir,bundle_status,step,num_sequences,ep_len,avg_seq_len_atc,chain_sr_1,chain_sr_2,chain_sr_3,chain_sr_4,chain_sr_5,caveat
+D->D,D,D,task_D_D_step40000,complete_official_bundle,40000,1000,360,3.123,0.860,0.722,0.606,0.509,0.426,
+ABC->D,ABC,D,task_ABC_D_step100000,curated_public_bundle,100000,1000,360,3.242,0.904,0.755,0.631,0.521,0.431,no_full_official_artifact_manifest
+ABCD->D,ABCD,D,task_ABCD_D_step100000,complete_official_bundle,100000,1000,360,3.872,0.926,0.844,0.774,0.706,0.622,

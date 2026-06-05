@@ -1,0 +1,6 @@
+policy,policy_label,successes,total,success_rate,error_rows,timeout_rows
+cogact,CogACT-Base,230,2016,0.11408730,0,0
+spatialvla,SpatialVLA,182,2016,0.09027778,0,0
+internvla_m1,InternVLA-M1,287,2016,0.14236111,0,0
+xvla,X-VLA-WidowX,1012,2016,0.50198413,0,0
+dexbotic,Dexbotic / DB-MemVLA,841,2016,0.41716270,0,0

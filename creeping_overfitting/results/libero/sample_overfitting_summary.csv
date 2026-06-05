@@ -1,0 +1,4 @@
+policy,policy_label,official_successes,official_rows,official_rate,fresh_successes,fresh_rows,fresh_rate,drop_pp,drop_definition
+spatial_forcing,Spatial Forcing,1956,2000,0.978000,9718,10000,0.971800,0.62,official_calibration_minus_fresh
+simvla,SimVLA,1946,2000,0.973000,9760,10000,0.976000,-0.30,official_calibration_minus_fresh
+pi05_lerobot,Pi05 / LeRobot,1951,2000,0.975500,9741,10000,0.974100,0.14,official_calibration_minus_fresh

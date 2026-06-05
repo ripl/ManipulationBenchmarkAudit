@@ -1,35 +1,50 @@
 # What Are We Actually Benchmarking in Robot Manipulation?
 
-Public repository scaffold for the paper **"What Are We Actually Benchmarking in Robot Manipulation?"**
+Public release package for the paper **"What Are We Actually Benchmarking in Robot Manipulation?"**
 
 Project website: <https://ripl.github.io/manipulation_benchmark_audit/>
 
 ## Purpose
 
-This repository will host public code, diagnostics, result summaries, and artifact documentation for the paper. The current version is a minimal release scaffold while code and artifacts are prepared.
+This repository contains lightweight public artifacts for the manipulation benchmark audit diagnostics. It is a curated release layer: CSV/JSON/YAML/MD result files, claim mappings, and validation scripts, not a dump of internal training/evaluation workspaces.
 
-## Status
-
-This repository is being prepared for public release. Code, benchmark diagnostics, result summaries, and artifact access instructions are coming soon.
-
-The current repository intentionally contains only lightweight documentation scaffolding. It does not include model weights, datasets, simulator caches, rollout videos, generated result bundles, or private filesystem paths.
-
-## Repository Layout
+## Layout
 
 ```text
 .
-├── artifacts/      # Release artifact documentation; files coming soon.
-├── diagnostics/    # Benchmark diagnostic descriptions; code coming soon.
-├── results/        # Lightweight paper result summaries; files coming soon.
+├── shortcut_solvability/
+├── statistical_significance/
+├── creeping_overfitting/
+├── data_source_dependency/
+├── scripts/
+├── CLAIMS.md
+├── SHA256SUMS
+├── public_manifest.json
 ├── LICENSE
 └── README.md
 ```
 
-## What Will Be Released
+## Included Diagnostics
 
-1. Diagnostic definitions and minimal code needed to run public benchmark audit checks.
-2. Lightweight result summaries for paper-facing claims.
-3. Artifact documentation with download or reproduction instructions for data that is too large to store in git.
+1. `shortcut_solvability/`: LIBERO and CALVIN DINO+MLP/task-id shortcut-solvability summaries, configs, and compact per-trial/per-sequence outcomes.
+2. `statistical_significance/`: LIBERO Goal five-policy `5k` shared-instance outcome rows, policy summaries, pairwise-disagreement summary, and shared init-state/config provenance.
+3. `creeping_overfitting/`: SimplerEnv fixed-grid and Protocol A-E rows/summaries, CALVIN resampled-pose and fresh-sequence rows/summaries, and LIBERO Layer 2 summaries.
+4. `data_source_dependency/`: scripted-demo WidowX data-source-dependency summaries and official `4 x 24` grid trial outcomes.
+
+## Exclusions
+
+This release intentionally excludes model weights, datasets, rollout videos, full rollout directories, full observations, per-step action traces, simulator caches, conda environments, containers, raw logs, third-party source checkouts, Git metadata, browser state, credential files, and credential material. Private paths, hostnames, job IDs, and W&B links are not release blockers by policy if credential-clean, but this package keeps them minimal.
+
+## Validation
+
+Run both scripts from the repository root:
+
+```bash
+python scripts/recompute_claims.py
+python scripts/validate_release.py
+```
+
+`recompute_claims.py` recomputes the included headline numbers from public files. `validate_release.py` also parses CSV/JSON/YAML files, checks excluded artifact types, scans for high-risk credential patterns, verifies `SHA256SUMS`, and verifies the expected top-level package shape.
 
 ## Contact
 

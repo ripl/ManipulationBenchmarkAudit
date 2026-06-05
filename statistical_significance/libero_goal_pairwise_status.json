@@ -1,0 +1,28 @@
+{
+  "claim_id": "libero_goal_pairwise_d",
+  "benchmark": "LIBERO Goal",
+  "public_status": "public_recomputed_from_release_files",
+  "paper_facing_summary": {
+    "num_policies": 5,
+    "rollouts_per_policy": 5000,
+    "mean_pairwise_disagreement_d": 0.03528,
+    "median_pairwise_disagreement_d": 0.0354
+  },
+  "public_recompute_available": true,
+  "public_recompute_files": {
+    "base_directory": "statistical_significance/libero_goal_5x5k",
+    "policy_success_summary": "statistical_significance/libero_goal_5x5k/policy_success_summary.csv",
+    "pairwise_disagreement": "statistical_significance/libero_goal_5x5k/pairwise_disagreement.csv",
+    "policy_rows": "statistical_significance/libero_goal_5x5k/policies/*/episodes_combined.csv",
+    "policy_summaries": "statistical_significance/libero_goal_5x5k/policies/*/policy_summary.json",
+    "shared_provenance": [
+      "statistical_significance/libero_goal_5x5k/shared/libero_config.yaml",
+      "statistical_significance/libero_goal_5x5k/shared/init_state_goal_5000_MANIFEST.json"
+    ]
+  },
+  "source_note": {
+    "repo": "Eval_Policies_CoRL",
+    "recorded_path": "results/libero/sam_exports/libero_goal_5x5k_for_sam_20260515T052653Z",
+    "recorded_commit": "a415f11"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "eval_trials_per_task": 50,
+  "num_successes": 500,
+  "num_trials": 500,
+  "per_task": {
+    "0": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "1": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "2": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_salad_dressing_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "3": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "4": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_ketchup_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "5": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "6": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_butter_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "7": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_milk_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "8": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+      "trials": 50
+    },
+    "9": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "pick_up_the_orange_juice_and_place_it_in_the_basket",
+      "trials": 50
+    }
+  },
+  "step": 16110,
+  "success_rate": 1.0,
+  "task_suite": "libero_object"
+}

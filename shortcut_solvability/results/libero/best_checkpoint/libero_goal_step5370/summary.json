@@ -1,0 +1,70 @@
+{
+  "eval_trials_per_task": 50,
+  "num_successes": 494,
+  "num_trials": 500,
+  "per_task": {
+    "0": {
+      "success_rate": 0.94,
+      "successes": 47,
+      "task_name": "open_the_middle_drawer_of_the_cabinet",
+      "trials": 50
+    },
+    "1": {
+      "success_rate": 0.98,
+      "successes": 49,
+      "task_name": "put_the_bowl_on_the_stove",
+      "trials": 50
+    },
+    "2": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "put_the_wine_bottle_on_top_of_the_cabinet",
+      "trials": 50
+    },
+    "3": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "open_the_top_drawer_and_put_the_bowl_inside",
+      "trials": 50
+    },
+    "4": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "put_the_bowl_on_top_of_the_cabinet",
+      "trials": 50
+    },
+    "5": {
+      "success_rate": 0.98,
+      "successes": 49,
+      "task_name": "push_the_plate_to_the_front_of_the_stove",
+      "trials": 50
+    },
+    "6": {
+      "success_rate": 0.98,
+      "successes": 49,
+      "task_name": "put_the_cream_cheese_in_the_bowl",
+      "trials": 50
+    },
+    "7": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "turn_on_the_stove",
+      "trials": 50
+    },
+    "8": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "put_the_bowl_on_the_plate",
+      "trials": 50
+    },
+    "9": {
+      "success_rate": 1.0,
+      "successes": 50,
+      "task_name": "put_the_wine_bottle_on_the_rack",
+      "trials": 50
+    }
+  },
+  "step": 5370,
+  "success_rate": 0.988,
+  "task_suite": "libero_goal"
+}

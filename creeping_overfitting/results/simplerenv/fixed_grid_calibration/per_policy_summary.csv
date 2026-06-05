@@ -1,0 +1,6 @@
+policy,policy_label,task,successes,total,success_rate,ci95_one_sided_lower,ci95_one_sided_upper,ci95_one_sided_lower_width,ci95_one_sided_upper_width,error_rows,timeout_rows
+cogact,CogACT-Base,all,561,1152,0.48697917,0.46281529,0.51120406,0.02416388,0.02422490,0,0
+spatialvla,SpatialVLA,all,432,1152,0.37500000,0.35185701,0.39872876,0.02314299,0.02372876,0,0
+internvla_m1,InternVLA-M1,all,705,1152,0.61197917,0.58812753,0.63530605,0.02385163,0.02332689,0,0
+xvla,X-VLA-WidowX,all,834,1152,0.72395833,0.70178830,0.74507888,0.02217004,0.02112054,0,0
+dexbotic,Dexbotic / DB-MemVLA,all,745,1152,0.64670139,0.62321771,0.66949761,0.02348368,0.02279622,0,0

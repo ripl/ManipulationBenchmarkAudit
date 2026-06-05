@@ -1,0 +1,4 @@
+policy,num_sequences,calibration_atc,resampled_pose_atc,atc_drop_calibration_minus_resampled,calibration_chain_success_rate,resampled_pose_chain_success_rate,chain_success_drop_percentage_points
+X-VLA,1000,4.165000,3.138000,1.027000,0.709000,0.459000,25.000000
+GR-1,1000,3.244000,2.495000,0.749000,0.431000,0.296000,13.500000
+RoboFlamingo,1000,2.367000,1.869000,0.498000,0.209000,0.145000,6.400000

@@ -1,0 +1,5 @@
+assets: /share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero/assets
+bddl_files: /share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero/bddl_files
+benchmark_root: /share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero
+datasets: /share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/datasets
+init_states: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000

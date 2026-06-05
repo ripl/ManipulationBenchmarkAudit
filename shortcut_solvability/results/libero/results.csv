@@ -1,0 +1,5 @@
+paper_cell,task_suite,artifact_dir,step,successes,trials,success_rate,paper_percent
+Spatial,libero_spatial,libero_spatial_step13425,13425,495,500,0.99,99.0
+Object,libero_object,libero_object_step16110,16110,500,500,1.0,100.0
+Goal,libero_goal,libero_goal_step5370,5370,494,500,0.988,98.8
+Long,libero_10,libero_10_step15215,15215,462,500,0.924,92.4

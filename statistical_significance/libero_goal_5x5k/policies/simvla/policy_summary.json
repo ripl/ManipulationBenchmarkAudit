@@ -1,0 +1,94 @@
+{
+  "policy_slug": "simvla",
+  "display_name": "SimVLA",
+  "tracker_id": 798,
+  "reported_libero_goal_percent": 98.6,
+  "rows": 5000,
+  "unique_instance_ids": 5000,
+  "successes": 4895,
+  "errors": 0,
+  "success_rate": 0.979,
+  "success_percent": 97.9,
+  "tasks": [
+    {
+      "task_id": 0,
+      "rows": 500,
+      "successes": 498,
+      "errors": 0,
+      "success_rate": 0.996,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T061751Z/task_0"
+    },
+    {
+      "task_id": 1,
+      "rows": 500,
+      "successes": 492,
+      "errors": 0,
+      "success_rate": 0.984,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T080011Z/task_1"
+    },
+    {
+      "task_id": 2,
+      "rows": 500,
+      "successes": 496,
+      "errors": 0,
+      "success_rate": 0.992,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T080011Z/task_2"
+    },
+    {
+      "task_id": 3,
+      "rows": 500,
+      "successes": 488,
+      "errors": 0,
+      "success_rate": 0.976,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T093542Z/task_3"
+    },
+    {
+      "task_id": 4,
+      "rows": 500,
+      "successes": 494,
+      "errors": 0,
+      "success_rate": 0.988,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T093642Z/task_4"
+    },
+    {
+      "task_id": 5,
+      "rows": 500,
+      "successes": 500,
+      "errors": 0,
+      "success_rate": 1.0,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T111201Z/task_5"
+    },
+    {
+      "task_id": 6,
+      "rows": 500,
+      "successes": 497,
+      "errors": 0,
+      "success_rate": 0.994,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T120847Z/task_6"
+    },
+    {
+      "task_id": 7,
+      "rows": 500,
+      "successes": 500,
+      "errors": 0,
+      "success_rate": 1.0,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T130825Z/task_7"
+    },
+    {
+      "task_id": 8,
+      "rows": 500,
+      "successes": 499,
+      "errors": 0,
+      "success_rate": 0.998,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T133953Z/task_8"
+    },
+    {
+      "task_id": 9,
+      "rows": 500,
+      "successes": 431,
+      "errors": 0,
+      "success_rate": 0.862,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T134031Z/task_9"
+    }
+  ]
+}

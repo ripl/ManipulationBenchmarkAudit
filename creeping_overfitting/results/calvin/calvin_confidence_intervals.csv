@@ -1,0 +1,10 @@
+comparison,policy,metric,unit,calibration,altered_or_fresh,drop_calibration_minus_altered_or_fresh,ci95_lower,ci95_upper,method
+distribution_overfitting,X-VLA,ATC,tasks_completed_out_of_5,4.165000,3.138000,1.027000,0.890432,1.163568,paired_row_level_wald_over_1000_shared_sequence_indices
+distribution_overfitting,X-VLA,5/5 chain success,percentage_points,70.900000,45.900000,25.000000,21.292310,28.707690,paired_row_level_wald_over_1000_shared_sequence_indices
+distribution_overfitting,GR-1,ATC,tasks_completed_out_of_5,3.244000,2.495000,0.749000,0.623929,0.874071,paired_row_level_wald_over_1000_shared_sequence_indices
+distribution_overfitting,GR-1,5/5 chain success,percentage_points,43.100000,29.600000,13.500000,10.225898,16.774102,paired_row_level_wald_over_1000_shared_sequence_indices
+distribution_overfitting,RoboFlamingo,ATC,tasks_completed_out_of_5,2.367000,1.869000,0.498000,0.371919,0.624081,paired_row_level_wald_over_1000_shared_sequence_indices
+distribution_overfitting,RoboFlamingo,5/5 chain success,percentage_points,20.900000,14.500000,6.400000,3.572538,9.227462,paired_row_level_wald_over_1000_shared_sequence_indices
+sample_overfitting,X-VLA,ATC,tasks_completed_out_of_5,4.165000,4.179500,-0.014500,-0.128663,0.099663,independent_two_sample_wald_1000_calibration_vs_2000_fresh_sequences
+sample_overfitting,GR-1,ATC,tasks_completed_out_of_5,3.244000,3.137000,0.107000,-0.037268,0.251268,independent_two_sample_wald_1000_calibration_vs_2000_fresh_sequences
+sample_overfitting,RoboFlamingo,ATC,tasks_completed_out_of_5,2.367000,2.298000,0.069000,-0.067728,0.205728,independent_two_sample_wald_1000_calibration_vs_2000_fresh_sequences

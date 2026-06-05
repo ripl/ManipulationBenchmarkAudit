@@ -1,0 +1,122 @@
+{
+  "distribution_overfitting": [
+    {
+      "atc_drop_calibration_minus_resampled": "1.027000",
+      "calibration_atc": "4.165000",
+      "calibration_chain_success_rate": "0.709000",
+      "chain_success_drop_percentage_points": "25.000000",
+      "num_sequences": 1000,
+      "policy": "X-VLA",
+      "resampled_pose_atc": "3.138000",
+      "resampled_pose_chain_success_rate": "0.459000"
+    },
+    {
+      "atc_drop_calibration_minus_resampled": "0.749000",
+      "calibration_atc": "3.244000",
+      "calibration_chain_success_rate": "0.431000",
+      "chain_success_drop_percentage_points": "13.500000",
+      "num_sequences": 1000,
+      "policy": "GR-1",
+      "resampled_pose_atc": "2.495000",
+      "resampled_pose_chain_success_rate": "0.296000"
+    },
+    {
+      "atc_drop_calibration_minus_resampled": "0.498000",
+      "calibration_atc": "2.367000",
+      "calibration_chain_success_rate": "0.209000",
+      "chain_success_drop_percentage_points": "6.400000",
+      "num_sequences": 1000,
+      "policy": "RoboFlamingo",
+      "resampled_pose_atc": "1.869000",
+      "resampled_pose_chain_success_rate": "0.145000"
+    }
+  ],
+  "drop_convention": "drop = matched local calibration - altered_or_fresh; positive values mean altered/fresh scored lower",
+  "excluded_from_sanitized_package": [
+    "cluster/account metadata, private paths, environment dumps, heavy model/data/media artifacts, caches, and rejected manifest candidates"
+  ],
+  "sample_overfitting": [
+    {
+      "atc_drop_calibration_minus_fresh": "-0.003000",
+      "calibration_atc": "4.165000",
+      "fresh_atc": "4.168000",
+      "fresh_seed": 2026052601,
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 1000,
+      "policy": "X-VLA"
+    },
+    {
+      "atc_drop_calibration_minus_fresh": "-0.026000",
+      "calibration_atc": "4.165000",
+      "fresh_atc": "4.191000",
+      "fresh_seed": 2026052602,
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 1000,
+      "policy": "X-VLA"
+    },
+    {
+      "atc_drop_calibration_minus_fresh": "-0.014500",
+      "calibration_atc": "4.165000",
+      "fresh_atc": "4.179500",
+      "fresh_seed": "pooled",
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 2000,
+      "policy": "X-VLA"
+    },
+    {
+      "atc_drop_calibration_minus_fresh": "0.110000",
+      "calibration_atc": "3.244000",
+      "fresh_atc": "3.134000",
+      "fresh_seed": 2026052601,
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 1000,
+      "policy": "GR-1"
+    },
+    {
+      "atc_drop_calibration_minus_fresh": "0.104000",
+      "calibration_atc": "3.244000",
+      "fresh_atc": "3.140000",
+      "fresh_seed": 2026052602,
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 1000,
+      "policy": "GR-1"
+    },
+    {
+      "atc_drop_calibration_minus_fresh": "0.107000",
+      "calibration_atc": "3.244000",
+      "fresh_atc": "3.137000",
+      "fresh_seed": "pooled",
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 2000,
+      "policy": "GR-1"
+    },
+    {
+      "atc_drop_calibration_minus_fresh": "0.078000",
+      "calibration_atc": "2.367000",
+      "fresh_atc": "2.289000",
+      "fresh_seed": 2026052601,
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 1000,
+      "policy": "RoboFlamingo"
+    },
+    {
+      "atc_drop_calibration_minus_fresh": "0.060000",
+      "calibration_atc": "2.367000",
+      "fresh_atc": "2.307000",
+      "fresh_seed": 2026052602,
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 1000,
+      "policy": "RoboFlamingo"
+    },
+    {
+      "atc_drop_calibration_minus_fresh": "0.069000",
+      "calibration_atc": "2.367000",
+      "fresh_atc": "2.298000",
+      "fresh_seed": "pooled",
+      "num_calibration_sequences": 1000,
+      "num_fresh_sequences": 2000,
+      "policy": "RoboFlamingo"
+    }
+  ],
+  "schema": "calvin_creeping_overfitting_sanitized_summary_v1"
+}

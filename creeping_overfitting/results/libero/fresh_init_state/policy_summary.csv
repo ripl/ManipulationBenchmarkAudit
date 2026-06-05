@@ -1,0 +1,4 @@
+policy,policy_label,successes,rows,errors,success_rate
+spatial_forcing,Spatial Forcing,9718,10000,0,0.971800
+simvla,SimVLA,9760,10000,0,0.976000
+pi05_lerobot,Pi05 / LeRobot,9741,10000,0,0.974100

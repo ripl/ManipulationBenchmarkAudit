@@ -1,0 +1,78 @@
+{
+  "actual_total_rows": 10080,
+  "errors": [],
+  "expected_total_rows": 10080,
+  "removed_private_or_run_specific_fields": [
+    "asset_manifest",
+    "current_repo_state",
+    "large_artifact_git_check",
+    "metadata_summary",
+    "output_dir",
+    "protocol_config",
+    "replacement_submissions",
+    "replacement_summary.records",
+    "replacement_summary.chains",
+    "run_root",
+    "submission_records"
+  ],
+  "replacement_summary": {
+    "active_replacement_rows": 7,
+    "total_replacement_rows": 11
+  },
+  "row_counts": {
+    "per_condition": {
+      "random_pose": 1440,
+      "random_pose_arm": 1440,
+      "reverse_language": 1440,
+      "blue_on_red_relation": 1440,
+      "red_on_blue_relation": 1440,
+      "stacked_support": 1440,
+      "five_color_compositional_stack": 1440
+    },
+    "per_policy": {
+      "cogact": 2016,
+      "dexbotic": 2016,
+      "internvla_m1": 2016,
+      "spatialvla": 2016,
+      "xvla": 2016
+    },
+    "per_policy_condition": {
+      "cogact/random_pose": 288,
+      "cogact/random_pose_arm": 288,
+      "cogact/reverse_language": 288,
+      "cogact/blue_on_red_relation": 288,
+      "cogact/red_on_blue_relation": 288,
+      "cogact/stacked_support": 288,
+      "cogact/five_color_compositional_stack": 288,
+      "dexbotic/random_pose": 288,
+      "dexbotic/random_pose_arm": 288,
+      "dexbotic/reverse_language": 288,
+      "dexbotic/blue_on_red_relation": 288,
+      "dexbotic/red_on_blue_relation": 288,
+      "dexbotic/stacked_support": 288,
+      "dexbotic/five_color_compositional_stack": 288,
+      "internvla_m1/random_pose": 288,
+      "internvla_m1/random_pose_arm": 288,
+      "internvla_m1/reverse_language": 288,
+      "internvla_m1/blue_on_red_relation": 288,
+      "internvla_m1/red_on_blue_relation": 288,
+      "internvla_m1/stacked_support": 288,
+      "internvla_m1/five_color_compositional_stack": 288,
+      "spatialvla/random_pose": 288,
+      "spatialvla/random_pose_arm": 288,
+      "spatialvla/reverse_language": 288,
+      "spatialvla/blue_on_red_relation": 288,
+      "spatialvla/red_on_blue_relation": 288,
+      "spatialvla/stacked_support": 288,
+      "spatialvla/five_color_compositional_stack": 288,
+      "xvla/random_pose": 288,
+      "xvla/random_pose_arm": 288,
+      "xvla/reverse_language": 288,
+      "xvla/blue_on_red_relation": 288,
+      "xvla/red_on_blue_relation": 288,
+      "xvla/stacked_support": 288,
+      "xvla/five_color_compositional_stack": 288
+    }
+  },
+  "validation_status": "passed"
+}

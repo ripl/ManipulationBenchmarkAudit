@@ -1,0 +1,44 @@
+{
+  "baseline": "matched local calibration on abc_d_official_1000seq_workers4",
+  "benchmark": "CALVIN ABC->D long-horizon evaluation",
+  "chunk_size": 250,
+  "excluded_candidates": [
+    "results/calvin/sequence_manifests/abc_d_fresh_sequence_151seq_seed2026052601.json",
+    "results/calvin/sequence_manifests/abc_d_fresh_sequence_151seq_seed2026052602.json"
+  ],
+  "forbidden_env_vars": [
+    "CALVIN_RESET_BANK",
+    "RESET_BANK",
+    "CALVIN_RESET_PROTOCOL"
+  ],
+  "fresh_sample_kind": "fresh independent stratified samples from the official ABC->D symbolic sequence generator",
+  "manifests": [
+    {
+      "file": "results/calvin/manifests/abc_d_fresh_sequence_1000seq_seed2026052601.json",
+      "seed": 2026052601
+    },
+    {
+      "file": "results/calvin/manifests/abc_d_fresh_sequence_1000seq_seed2026052602.json",
+      "seed": 2026052602
+    }
+  ],
+  "num_chunks_per_policy_manifest": 4,
+  "num_fresh_manifests": 2,
+  "num_sequences_per_manifest": 1000,
+  "paper_term": "sample_overfitting",
+  "policies": [
+    "X-VLA",
+    "GR-1",
+    "RoboFlamingo"
+  ],
+  "reset_rule": "use CALVIN official get_env_state_for_initial_condition unchanged",
+  "schema": "calvin_fresh_sequence_manifest_config_v1",
+  "stratification": {
+    "shuffle": true,
+    "states_with_5_task_chains": 152,
+    "states_with_6_task_chains": 40,
+    "symbolic_initial_states": 192,
+    "task_chain_length": 5
+  },
+  "xvla_ep_len": 360
+}

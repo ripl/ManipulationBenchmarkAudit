@@ -1,0 +1,94 @@
+{
+  "policy_slug": "spatial_forcing",
+  "display_name": "Spatial Forcing",
+  "tracker_id": 438,
+  "reported_libero_goal_percent": 98.8,
+  "rows": 5000,
+  "unique_instance_ids": 5000,
+  "successes": 4931,
+  "errors": 0,
+  "success_rate": 0.9862,
+  "success_percent": 98.62,
+  "tasks": [
+    {
+      "task_id": 0,
+      "rows": 500,
+      "successes": 498,
+      "errors": 0,
+      "success_rate": 0.996,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_0"
+    },
+    {
+      "task_id": 1,
+      "rows": 500,
+      "successes": 499,
+      "errors": 0,
+      "success_rate": 0.998,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_1"
+    },
+    {
+      "task_id": 2,
+      "rows": 500,
+      "successes": 499,
+      "errors": 0,
+      "success_rate": 0.998,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_2"
+    },
+    {
+      "task_id": 3,
+      "rows": 500,
+      "successes": 464,
+      "errors": 0,
+      "success_rate": 0.928,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_3"
+    },
+    {
+      "task_id": 4,
+      "rows": 500,
+      "successes": 485,
+      "errors": 0,
+      "success_rate": 0.97,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_4"
+    },
+    {
+      "task_id": 5,
+      "rows": 500,
+      "successes": 497,
+      "errors": 0,
+      "success_rate": 0.994,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_5"
+    },
+    {
+      "task_id": 6,
+      "rows": 500,
+      "successes": 497,
+      "errors": 0,
+      "success_rate": 0.994,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_6"
+    },
+    {
+      "task_id": 7,
+      "rows": 500,
+      "successes": 500,
+      "errors": 0,
+      "success_rate": 1.0,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_7"
+    },
+    {
+      "task_id": 8,
+      "rows": 500,
+      "successes": 498,
+      "errors": 0,
+      "success_rate": 0.996,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_8"
+    },
+    {
+      "task_id": 9,
+      "rows": 500,
+      "successes": 494,
+      "errors": 0,
+      "success_rate": 0.988,
+      "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_9"
+    }
+  ]
+}

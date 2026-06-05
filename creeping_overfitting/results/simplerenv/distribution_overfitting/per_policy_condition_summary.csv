@@ -1,0 +1,36 @@
+policy,policy_label,condition,successes,total,success_rate,error_rows,timeout_rows
+cogact,CogACT-Base,random_pose,37,288,0.12847222,0,0
+cogact,CogACT-Base,random_pose_arm,31,288,0.10763889,0,0
+cogact,CogACT-Base,reverse_language,28,288,0.09722222,0,0
+cogact,CogACT-Base,blue_on_red_relation,22,288,0.07638889,0,0
+cogact,CogACT-Base,red_on_blue_relation,26,288,0.09027778,0,0
+cogact,CogACT-Base,stacked_support,64,288,0.22222222,0,0
+cogact,CogACT-Base,five_color_compositional_stack,22,288,0.07638889,0,0
+spatialvla,SpatialVLA,random_pose,36,288,0.12500000,0,0
+spatialvla,SpatialVLA,random_pose_arm,24,288,0.08333333,0,0
+spatialvla,SpatialVLA,reverse_language,12,288,0.04166667,0,0
+spatialvla,SpatialVLA,blue_on_red_relation,12,288,0.04166667,0,0
+spatialvla,SpatialVLA,red_on_blue_relation,24,288,0.08333333,0,0
+spatialvla,SpatialVLA,stacked_support,50,288,0.17361111,0,0
+spatialvla,SpatialVLA,five_color_compositional_stack,24,288,0.08333333,0,0
+internvla_m1,InternVLA-M1,random_pose,52,288,0.18055556,0,0
+internvla_m1,InternVLA-M1,random_pose_arm,46,288,0.15972222,0,0
+internvla_m1,InternVLA-M1,reverse_language,46,288,0.15972222,0,0
+internvla_m1,InternVLA-M1,blue_on_red_relation,10,288,0.03472222,0,0
+internvla_m1,InternVLA-M1,red_on_blue_relation,54,288,0.18750000,0,0
+internvla_m1,InternVLA-M1,stacked_support,60,288,0.20833333,0,0
+internvla_m1,InternVLA-M1,five_color_compositional_stack,19,288,0.06597222,0,0
+xvla,X-VLA-WidowX,random_pose,207,288,0.71875000,0,0
+xvla,X-VLA-WidowX,random_pose_arm,160,288,0.55555556,0,0
+xvla,X-VLA-WidowX,reverse_language,153,288,0.53125000,0,0
+xvla,X-VLA-WidowX,blue_on_red_relation,175,288,0.60763889,0,0
+xvla,X-VLA-WidowX,red_on_blue_relation,137,288,0.47569444,0,0
+xvla,X-VLA-WidowX,stacked_support,90,288,0.31250000,0,0
+xvla,X-VLA-WidowX,five_color_compositional_stack,90,288,0.31250000,0,0
+dexbotic,Dexbotic / DB-MemVLA,random_pose,139,288,0.48263889,0,0
+dexbotic,Dexbotic / DB-MemVLA,random_pose_arm,112,288,0.38888889,0,0
+dexbotic,Dexbotic / DB-MemVLA,reverse_language,137,288,0.47569444,0,0
+dexbotic,Dexbotic / DB-MemVLA,blue_on_red_relation,111,288,0.38541667,0,0
+dexbotic,Dexbotic / DB-MemVLA,red_on_blue_relation,146,288,0.50694444,0,0
+dexbotic,Dexbotic / DB-MemVLA,stacked_support,79,288,0.27430556,0,0
+dexbotic,Dexbotic / DB-MemVLA,five_color_compositional_stack,117,288,0.40625000,0,0

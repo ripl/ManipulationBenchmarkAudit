@@ -1,0 +1,44 @@
+{
+  "allow_error_rows": false,
+  "artifact_path_count": 5760,
+  "errors": [],
+  "removed_private_or_run_specific_fields": [
+    "output_dir",
+    "run_root",
+    "submission_records"
+  ],
+  "row_counts": {
+    "full": 5760,
+    "per_policy": {
+      "cogact": 1152,
+      "dexbotic": 1152,
+      "internvla_m1": 1152,
+      "spatialvla": 1152,
+      "xvla": 1152
+    },
+    "per_task_job": {
+      "cogact/carrot": 288,
+      "cogact/eggplant": 288,
+      "cogact/spoon": 288,
+      "cogact/stack": 288,
+      "dexbotic/carrot": 288,
+      "dexbotic/eggplant": 288,
+      "dexbotic/spoon": 288,
+      "dexbotic/stack": 288,
+      "internvla_m1/carrot": 288,
+      "internvla_m1/eggplant": 288,
+      "internvla_m1/spoon": 288,
+      "internvla_m1/stack": 288,
+      "spatialvla/carrot": 288,
+      "spatialvla/eggplant": 288,
+      "spatialvla/spoon": 288,
+      "spatialvla/stack": 288,
+      "xvla/carrot": 288,
+      "xvla/eggplant": 288,
+      "xvla/spoon": 288,
+      "xvla/stack": 288
+    }
+  },
+  "run_id": "repeated_fixed_grid_288_normal_20260523T232142Z",
+  "validation_status": "passed"
+}

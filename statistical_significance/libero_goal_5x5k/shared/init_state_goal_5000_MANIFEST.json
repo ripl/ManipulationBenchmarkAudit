@@ -1,0 +1,80 @@
+{
+  "artifact_type": "fresh_libero_goal_init_states",
+  "assets": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero/assets",
+  "bddl_files": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero/bddl_files",
+  "elapsed_seconds": 5484.318,
+  "env_img_res": 256,
+  "generation_date_utc": "2026-05-13T23:58:17Z",
+  "iid_note": "Fresh one-run generation. Within each task, states are sequential draws from LIBERO reset sampling with fixed seed, rejecting already-successful initializations. Suite is stratified at 500 states per task.",
+  "libero_config_path": "/tmp/libero_goal_5000_fresh_2042011/libero_config",
+  "num_tasks": 10,
+  "seed": 20260513,
+  "slurm_job_id": "2042011",
+  "suite": "libero_goal",
+  "target_root": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero/init_state_goal_5000",
+  "task_directory": "libero_goal",
+  "tasks": {
+    "open_the_middle_drawer_of_the_cabinet": {
+      "elapsed_seconds": 534.416,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 0
+    },
+    "open_the_top_drawer_and_put_the_bowl_inside": {
+      "elapsed_seconds": 534.351,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 3
+    },
+    "push_the_plate_to_the_front_of_the_stove": {
+      "elapsed_seconds": 544.118,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 5
+    },
+    "put_the_bowl_on_the_plate": {
+      "elapsed_seconds": 579.638,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 8
+    },
+    "put_the_bowl_on_the_stove": {
+      "elapsed_seconds": 538.015,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 1
+    },
+    "put_the_bowl_on_top_of_the_cabinet": {
+      "elapsed_seconds": 526.875,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 4
+    },
+    "put_the_cream_cheese_in_the_bowl": {
+      "elapsed_seconds": 546.275,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 6
+    },
+    "put_the_wine_bottle_on_the_rack": {
+      "elapsed_seconds": 568.204,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 9
+    },
+    "put_the_wine_bottle_on_top_of_the_cabinet": {
+      "elapsed_seconds": 528.275,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 2
+    },
+    "turn_on_the_stove": {
+      "elapsed_seconds": 555.126,
+      "rejected_success_initializations": 0,
+      "states": 500,
+      "task_id": 7
+    }
+  },
+  "total_episodes": 5000,
+  "trials_per_task": 500
+}

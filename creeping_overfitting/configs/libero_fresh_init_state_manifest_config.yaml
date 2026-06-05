@@ -1,0 +1,5 @@
+assets: <LIBERO_REPO_ROOT>/libero/libero/assets
+bddl_files: <LIBERO_REPO_ROOT>/libero/libero/bddl_files
+benchmark_root: <LIBERO_REPO_ROOT>/libero/libero
+datasets: <LIBERO_REPO_ROOT>/libero/datasets
+init_states: <FRESH_INIT_STATE_ROOT>

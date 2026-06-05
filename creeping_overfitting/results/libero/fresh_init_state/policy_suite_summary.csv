@@ -1,0 +1,13 @@
+policy,policy_label,suite,successes,rows,errors,success_rate
+spatial_forcing,Spatial Forcing,libero_spatial,2418,2500,0,0.967200
+spatial_forcing,Spatial Forcing,libero_object,2500,2500,0,1.000000
+spatial_forcing,Spatial Forcing,libero_goal,2459,2500,0,0.983600
+spatial_forcing,Spatial Forcing,libero_10,2341,2500,0,0.936400
+simvla,SimVLA,libero_spatial,2446,2500,0,0.978400
+simvla,SimVLA,libero_object,2483,2500,0,0.993200
+simvla,SimVLA,libero_goal,2451,2500,0,0.980400
+simvla,SimVLA,libero_10,2380,2500,0,0.952000
+pi05_lerobot,Pi05 / LeRobot,libero_spatial,2434,2500,0,0.973600
+pi05_lerobot,Pi05 / LeRobot,libero_object,2491,2500,0,0.996400
+pi05_lerobot,Pi05 / LeRobot,libero_goal,2448,2500,0,0.979200
+pi05_lerobot,Pi05 / LeRobot,libero_10,2368,2500,0,0.947200

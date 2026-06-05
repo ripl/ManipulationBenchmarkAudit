@@ -6,7 +6,7 @@ Project website: <https://ripl.github.io/manipulation_benchmark_audit/>
 
 ## Purpose
 
-This repository contains lightweight public artifacts for the manipulation benchmark audit diagnostics. It is a curated release layer: CSV/JSON/YAML/MD result files, claim mappings, and validation scripts, not a dump of internal training/evaluation workspaces.
+This repository contains lightweight public artifacts for the manipulation benchmark audit diagnostics. It is a curated release layer: CSV/JSON/YAML/MD result files, claim mappings, and lightweight support scripts, not a dump of internal training/evaluation workspaces.
 
 ## Layout
 
@@ -39,17 +39,6 @@ This repository contains lightweight public artifacts for the manipulation bench
 
 This release intentionally excludes model weights, datasets, rollout videos, full rollout directories, full observations, per-step action traces, simulator caches, conda environments, containers, raw logs, third-party source checkouts, Git metadata, browser state, credential files, and credential material. Checkpoint identity metadata is included without binary payloads. Private paths, hostnames, job IDs, and W&B links are not release blockers by policy if credential-clean, but this package keeps them minimal.
 
-## Validation
-
-Run both scripts from the repository root:
-
-```bash
-python scripts/recompute_claims.py
-python scripts/validate_release.py
-```
-
-`recompute_claims.py` recomputes the included headline numbers from public files. `validate_release.py` also parses CSV/JSON/YAML files, checks excluded artifact types, scans for high-risk credential patterns, validates the leaderboard allowlist, validates the statistical-significance category partition, validates the provenance manifests, verifies `SHA256SUMS`, and verifies the expected top-level package shape.
-
 ## Contact
 
-For questions, contact Tianchong Jiang via GitHub: <https://github.com/Tianchong-Jiang>.
+For questions, please either post an issue to this repository or email Tianchong Jiang at <tianchongj@ttic.edu>.

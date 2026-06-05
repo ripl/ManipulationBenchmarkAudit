@@ -22,7 +22,8 @@
       "secret keys",
       "browser state"
     ],
-    "private_provenance_policy": "Private paths, hostnames, job IDs, usernames, and W&B links are acceptable only if credential-clean; this package minimizes them."
+    "private_provenance_policy": "Private paths, hostnames, job IDs, usernames, and W&B links are acceptable only if credential-clean; this package minimizes them.",
+    "checkpoint_identity_policy": "Binary model weights remain excluded. Public-safe checkpoint identity metadata, including model ids, revisions, local filenames, file sizes, and SHA256 hashes when available, is included under provenance/."
   },
   "source_candidates_used": [
     {
@@ -55,6 +56,16 @@
       "path": "/home/ripl/workspace/scratch/overfit_ci_agent_3/remote_artifacts",
       "role": "local scratch mirror for SimplerEnv, CALVIN, and LIBERO candidate artifacts",
       "reason": "The curated release source contained the same selected lightweight public-facing summaries with clearer sanitization."
+    },
+    {
+      "path": "/home/ripl/workspace/scratch/overfit_ci_agent_2/cache/remote/results/libero/layer2_full/layer2_full_48g_no_g0g7_20260519T202906Z",
+      "role": "local scratch mirror used only to recover LIBERO Layer 2 checkpoint identity fields",
+      "reason": "Used as first-hand local evidence for model_id/revision/checkpoint_dir fields; binary checkpoint files were not present or copied."
+    },
+    {
+      "path": "local Hugging Face cache metadata for downloaded policy snapshots",
+      "role": "checkpoint identity source for third-party policies",
+      "reason": "Used only to recover model ids, revisions, LFS SHA256 etags, and file sizes for the source_repo_or_model_id@upstream_revision pairs named in provenance/checkpoint_identity_manifest.csv. Binary checkpoint payloads were not copied."
     }
   ],
   "artifact_groups": [
@@ -89,6 +100,14 @@
       "claim_ids": ["widowx_scripted_dsd_91_of_96"],
       "source": "/home/ripl/workspace/corl_2026_supp/data_source_dependency",
       "notes": "Includes sanitized config, per-task/overall summaries, and one row per official grid episode. Excludes datasets, checkpoints, videos, and full training/eval directories."
+    },
+    {
+      "directory": "provenance",
+      "owner": "public release provenance",
+      "public_status": "included_best_effort",
+      "claim_ids": ["release_environment_provenance", "release_checkpoint_identity"],
+      "source": "Compiled from released public artifacts plus local first-hand source/scratch metadata named in source_candidates_used and source_candidates_inspected_not_copied_directly.",
+      "notes": "Includes package/environment and checkpoint identity manifests. Unrecoverable exact package versions, checkpoint revisions, file sizes, and SHA256 hashes are explicitly marked unknown or best_effort. Binary checkpoint payloads remain excluded."
     }
   ],
   "validation": {
@@ -101,7 +120,8 @@
       "SimplerEnv Protocol A-E summaries from rows",
       "CALVIN combined summaries from per-sequence rows",
       "LIBERO Layer 2 policy-level summary from released summary CSVs",
-      "shortcut-solvability result summaries from per-trial/per-sequence rows"
+      "shortcut-solvability result summaries from per-trial/per-sequence rows",
+      "provenance manifest schema and explicit unknown/best_effort statuses"
     ],
     "expected_intentional_exclusions": [
       "LIBERO Layer 2 per-episode rollout rows; the released policy-level summary claim is checked from released summary CSVs"

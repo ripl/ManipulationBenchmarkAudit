@@ -1,0 +1,109 @@
+paper_name,calvin_abc_d_atc,calvin_abc_d_prev_sota_atc
+AdaWorldPolicy: World-Model-Driven Diffusion Policy with Online Adaptive Learning for Robotic Manipulation,3.54,3.42
+A Dual-System Vision-Language-Action Model for Rational Manipulation,3.53,3.35
+AnchorRefine: Synergy-Manipulation Based on Trajectory Anchor and Residual Refinement for Vision-Language-Action Models,4.4,4.31
+Any3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds,2.68,3.22
+AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots,4.09,4.02
+BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation,4.405,4.33
+Being-H0.7: A Latent World-Action Model from Egocentric Videos,4.48,4.48
+Chain of World: World Model Thinking in Latent Motion,4.211,4.102
+Device-Conditioned Neural Architecture Search for Efficient Robotic Manipulation,3.67,3.72
+Disentangled Robot Learning via Separate Forward and Inverse Dynamics Pretraining,4.51,4.33
+DySL-VLA: Efficient Vision-Language-Action Model Inference via Dynamic-Static Layer-Skipping for Robot Manipulation,2.83,2.85
+EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training,3.714,4.142
+FASTER: Rethinking Real-Time Flow VLAs,4.292,4.313
+From Video to Control: A Survey of Learning Manipulation Interfaces from Temporal Visual Data,4.33,4.33
+Future Optical Flow Prediction Improves Robot Control & Video Generation,4.48,4.44
+Global Prior Meets Local Consistency: Dual-Memory Augmented Vision-Language-Action Model for Efficient Robotic Manipulation,4.45,4.29
+Green-VLA: Staged Vision-Language-Action Model for Generalist Robots,4.63,4.53
+HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation,3.58,3.41
+Learning Diffusion Policy from Primitive Skills for Robot Manipulation,4.49,3.92
+MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation,4.78,4.44
+MultihopSpatial: Multi-hop Compositional Spatial Reasoning Benchmark for Vision-Language Model,3.98,3.75
+Neural Implicit Action Fields: From Discrete Waypoints to Continuous Functions for Vision-Language-Action Models,4.47,4.44
+NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models,4.72,4.50
+"OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",3.885,4.057
+ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation,3.73,4.04
+Recurrent-Depth VLA: Implicit Test-Time Compute Scaling of Vision-Language-Action Models via Latent Iterative Reasoning,3.39,3.27
+Rethinking the Practicality of Vision-language-action Model: A Comprehensive Benchmark and An Improved Baseline,3.68,3.42
+RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models,2.57,2.32
+S-VAM: Shortcut Video-Action Model by Self-Distilling Geometric and Semantic Foresight,4.16,4.08
+TempoFit: Plug-and-Play Layer-Wise Temporal KV Memory for Long-Horizon Vision-Language-Action Manipulation,3.87,3.83
+Think Proprioceptively: Embodied Visual Reasoning for VLA Manipulation,4.55,4.53
+UAOR: Uncertainty-aware Observation Reinjection for Vision-Language-Action Models,3.67,3.55
+UniLACT: Depth-Aware RGB Latent Action Learning for Vision-Language-Action Models,3.1,3.06
+Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models,4.086,4.244
+VAMPO: Policy Optimization for Improving Visual Dynamics in Video Action Models,4.56,4.37
+VISTA: Enhancing Visual Conditioning via Track-Following Preference Optimization in Vision-Language-Action Models,4.02,3.95
+vla-eval: A Unified Evaluation Harness for Vision-Language-Action Models,4.30,4.43
+VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models,4.45,4.43
+VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models,4.142,3.509
+World Model for Robot Learning: A Comprehensive Survey,4.44,4.44
+Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution,4.75,4.53
+3D Dynamics-Aware Manipulation: Endowing Manipulation Policies with 3D Foresight,4.23,4.08
+ADPro: a Test-time Adaptive Diffusion Policy via Manifold-constrained Denoising and Task-aware Initialization for Robotic Manipulation,3.64,3.35
+AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning,3.29,3.06
+Autoregressive Flow Matching for Motion Prediction,3.74,3.31
+AVA-VLA: Improving Vision-Language-Action models with Active Visual Attention,4.65,4.53
+BEAST: Efficient Tokenization of B-Splines Encoded Action Sequences for Imitation Learning,4.42,4.29
+CEED-VLA: Consistency Vision-Language-Action Model with Early-Exit Decoding,3.67,3.70
+CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning,3.247,2.255
+Dexbotic: Open-Source Vision-Language-Action Toolbox,4.063,3.47
+Diffusion Trajectory-guided Policy for Long-horizon Robot Manipulation,3.43,3.27
+DISCO: Language-Guided Manipulation With Diffusion Policies and Constrained Inpainting,3.57,3.27
+Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy,3.61,4.04
+DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge,4.44,4.29
+EL3DD: Extended Latent 3D Diffusion for Language Conditioned Multitask Manipulation,4.09,3.34
+EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation,3.00,3.27
+FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies,4.53,4.29
+From Spatial to Actions: Grounding Vision-Language-Action Model in Spatial Foundation Priors,4.40,4.28
+FT-NCFM: An Influence-Aware Data Distillation Framework for Efficient VLA Models,3.47,3.65
+GEVRM: Goal-Expressive Video Generation Model For Robust Visual Manipulation,2.83,2.69
+GraspCorrect: Robotic Grasp Correction via Vision-Language Model-Guided Feedback,4.5,4.4
+GR-MG: Leveraging Partially-Annotated Data via Multi-Modal Goal-Conditioned Policy,4.04,3.35
+"HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",4.35,4.33
+LLaDA-VLA: Vision Language Diffusion Action Models,4.01,3.27
+MoWM: Mixture-of-World-Models for Embodied Planning via Latent-to-Pixel Feature Modulation,4.10,3.92
+$\pi_\texttt{RL}$: Online RL Fine-tuning for Flow-based Vision-Language-Action Models,4.717,3.838
+Pixel Motion as Universal Representation for Robot Control,3.81,4.44
+Pixel Motion Diffusion is What We Need for Robot Control,4.10,4.44
+PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning,4.01,4.28
+RFTF: Reinforcement Fine-tuning for Embodied Agents with Temporal Feedback,4.296,4.283
+RoboBERT: An End-to-end Multimodal Robotic Manipulation Model,3.79,3.39
+RoboFlamingo-Plus: Fusion of Depth and RGB Perception with Vision-Language Models for Enhanced Robotic Manipulation,3.00,2.062
+RoVer: Robot Reward Model as Test-Time Verifier for Vision-Language-Action Model,4.12,4.01
+RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation,4.161,
+Seeing Space and Motion: Enhancing Latent Actions with Geometric and Dynamic Awareness for Vision-Language-Action Models,4.38,4.29
+TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control,4.37,4.33
+Unified Vision-Language-Action Model,4.41,4.28
+Unifying Perception and Action: A Hybrid-Modality Pipeline with Implicit Visual Chain-of-Thought for Robotic Action Generation,4.73,4.51
+UniVLA: Learning to Act Anywhere with Task-centric Latent Actions,3.80,3.66
+Unveiling the Potential of Vision-Language-Action Models with Open-Ended Multimodal Instructions,2.99,2.70
+UP-VLA: A Unified Understanding and Prediction Model for Embodied Agent,4.08,3.35
+ViSA-Flow: Accelerating Robot Skill Learning via Large-Scale Video Semantic Action Flow,2.96,2.69
+VITA-VLA: Efficiently Teaching Vision-Language Models to Act via Action Expert Distillation,3.18,3.76
+VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model,4.42,4.33
+VLAS: Vision-Language-Action Model With Speech Instructions For Customized Robot Manipulation,2.4,2.48
+X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model,4.43,4.53
+3D Diffuser Actor: Policy Diffusion with 3D Scene Representations,3.35,3.06
+Astra: Efficient Transformer Architecture and Contrastive Dynamics Learning for Embodied Instruction Following,3.29,3.06
+Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation,3.53,3.27
+DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution,2.9,3.06
+Diffusion Transformer Policy,3.61,3.27
+Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning,4.01,3.06
+From LLMs to Actions: Latent Codes as Bridges in Hierarchical Robot Control,1.78,1.42
+GHIL-Glue: Hierarchical Control with Filtered Subgoal Images,3.69,2.94
+Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos,3.10,3.06
+Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation,4.28,3.53
+RoboUniView: Visual-Language Model with Unified View Representation for Robotic Manipulation,3.647,3.270
+"Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation",3.66,3.27
+Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations,4.33,3.65
+VidMan: Exploiting Implicit Dynamics from Video Diffusion Model for Effective Robot Manipulation,3.42,3.35
+What Matters in Building Vision-Language-Action Models for Generalist Robots,4.25,3.06
+Language-Conditioned Imitation Learning with Base Skill Priors under Unstructured Data,1.71,3.27
+Policy Adaptation from Foundation Model Feedback,1.73,1.48
+Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation,3.06,0.93
+Vision-Language Foundation Models as Effective Robot Imitators,2.48,0.90
+Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models,2.69,1.48
+What Matters in Language Conditioned Robotic Imitation Learning Over Unstructured Data,0.67,0.31
+D IFFUSION T RAJECTORY - GUIDED P OLICY : A N OVEL F RAMEWORK FOR L ONG -H ORIZON R OBOT M ANIPU - LATION,3.43,3.27

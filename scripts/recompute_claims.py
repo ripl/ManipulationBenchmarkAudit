@@ -13,6 +13,13 @@ from statistics import mean, median
 from typing import Any
 
 TOL = 1e-6
+SIGNIFICANCE_CATEGORY_HEADLINES = {
+    "no_improvement": 497,
+    "provably_not_significant": 145,
+    "provably_significant": 331,
+    "indeterminate": 376,
+}
+SIGNIFICANCE_EXCLUDED_MISSING_SCORES = 212
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -440,6 +447,37 @@ def recompute_statistical_significance(root: Path, errors: list[str]) -> dict[st
     }
 
 
+def recompute_statistical_significance_categories(root: Path, errors: list[str]) -> dict[str, Any]:
+    base = root / "statistical_significance" / "significance_categories"
+    all_rows = read_csv(base / "all_comparisons.csv")
+    counts = {category: 0 for category in SIGNIFICANCE_CATEGORY_HEADLINES}
+    for row in all_rows:
+        category = row["category"]
+        if category not in counts:
+            fail(errors, f"Significance categories: unexpected category {category!r}")
+            continue
+        counts[category] += 1
+
+    for category, expected_count in SIGNIFICANCE_CATEGORY_HEADLINES.items():
+        category_rows = read_csv(base / f"{category}.csv")
+        compare_int(errors, f"Significance category {category} all_comparisons count", counts[category], expected_count)
+        compare_int(errors, f"Significance category {category} file rows", len(category_rows), expected_count)
+        for row in category_rows:
+            if row.get("category") != category:
+                fail(errors, f"Significance category file {category}.csv has row labelled {row.get('category')!r}")
+
+    excluded_rows = read_csv(base / "excluded_missing_scores.csv")
+    compare_int(errors, "Significance categories excluded_missing_scores rows", len(excluded_rows), SIGNIFICANCE_EXCLUDED_MISSING_SCORES)
+    compare_int(errors, "Significance categories all comparable rows", len(all_rows), sum(SIGNIFICANCE_CATEGORY_HEADLINES.values()))
+
+    return {
+        "package": "statistical_significance/significance_categories",
+        "all_comparisons": len(all_rows),
+        "category_counts": counts,
+        "excluded_missing_scores": len(excluded_rows),
+    }
+
+
 def compare_libero_policy_summaries(
     policy_rows: list[dict[str, str]],
     suite_rows: list[dict[str, str]],
@@ -573,6 +611,8 @@ def recompute_shortcut(root: Path, errors: list[str]) -> dict[str, Any]:
 
 def recompute_release(root: Path) -> tuple[dict[str, Any], list[str]]:
     errors: list[str] = []
+    statistical_results = recompute_statistical_significance(root, errors)
+    statistical_results["aggregate_category_counts"] = recompute_statistical_significance_categories(root, errors)
     results = {
         "shortcut_solvability": recompute_shortcut(root, errors),
         "data_source_dependency": recompute_dsd(root, errors),
@@ -581,7 +621,7 @@ def recompute_release(root: Path) -> tuple[dict[str, Any], list[str]]:
             "calvin": recompute_calvin(root, errors),
             "libero": recompute_libero_layer2(root, errors),
         },
-        "statistical_significance": recompute_statistical_significance(root, errors),
+        "statistical_significance": statistical_results,
     }
     return results, errors
 

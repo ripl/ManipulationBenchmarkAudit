@@ -12,6 +12,11 @@ This file maps paper-facing manipulation benchmark audit claims to the lightweig
 ## Statistical Significance
 
 1. LIBERO Goal shared-instance pairwise disagreement: public-recomputed from `statistical_significance/libero_goal_5x5k/policy_success_summary.csv`, `pairwise_disagreement.csv`, `policies/*/{policy_summary.json,episodes_combined.csv}`, and `shared/{libero_config.yaml,init_state_goal_5000_MANIFEST.json}`. The released package verifies five policies with `5000` shared instance IDs each, then recomputes every joined policy pair. The paper-facing value is mean pairwise `D = 0.03528` and median `0.0354`.
+2. Aggregate-data previous-SOTA significance categories: generated from the five released Sam official-protocol previous-SOTA exports under `leaderboards/stat_significance_sam_export_20260522T233929/` using `statistical_significance/code/generate_significance_categories.py` and the cutoff logic in `statistical_significance/code/significance_cutoffs.py`. The released category tables contain `1349` comparable rows: `497` no-improvement, `145` provably-not-significant, `331` provably-significant, and `376` indeterminate. Another `212` benchmark/track rows are explicitly excluded in `excluded_missing_scores.csv` because the current score or previous-SOTA score is missing in the source export. Count conversion uses Python nearest-even `round()` to match Sam's reference code, and the released CSVs include scaled-count and rounding-residual columns.
+
+## Leaderboards
+
+1. Leaderboard CSV snapshots: copied from `/home/ripl/workspace/leaderboards` at commit `725613ff4e10f2725de3ac4ebcdbff28fc39586b`. The release includes five primary benchmark citation trackers, four supplementary benchmark trackers, and the five Sam official-protocol previous-SOTA exports. It intentionally excludes raw audit folders, caches, zips, scripts, downloaded papers, and non-CSV artifacts from the source repository.
 
 ## Creeping Overfitting
 

@@ -28,8 +28,14 @@
   "source_candidates_used": [
     {
       "path": "/home/ripl/workspace/corl_2026_supp",
-      "role": "curated release source for shortcut solvability, creeping overfitting, and DSD files",
+      "role": "curated release source for shortcut solvability, creeping overfitting, DSD files, and statistical-significance cutoff reference code",
       "git_commit": "d81bb7bbd18cb420c2c712668a8ee99f4c9c6cd7",
+      "worktree_status": "clean when copied"
+    },
+    {
+      "path": "/home/ripl/workspace/leaderboards",
+      "role": "source for copied public leaderboard CSV snapshots and Sam statistical-significance exports",
+      "git_commit": "725613ff4e10f2725de3ac4ebcdbff28fc39586b",
       "worktree_status": "clean when copied"
     },
     {
@@ -83,7 +89,7 @@
       "public_status": "included_public_recomputed",
       "claim_ids": ["libero_goal_pairwise_d"],
       "source": "Internal Eval_Policies_CoRL LIBERO Goal 5x5k package recorded as results/libero/sam_exports/libero_goal_5x5k_for_sam_20260515T052653Z at commit a415f11",
-      "notes": "Includes policy_success_summary.csv, pairwise_disagreement.csv, five per-policy episodes_combined.csv files, five policy_summary.json files, and shared config/init-state provenance. scripts/recompute_claims.py verifies shared instance IDs and recomputes every pairwise D value plus mean and median D."
+      "notes": "Includes policy_success_summary.csv, pairwise_disagreement.csv, five per-policy episodes_combined.csv files, five policy_summary.json files, shared config/init-state provenance, Sam's aggregate cutoff reference code copied from /home/ripl/workspace/corl_2026_supp/statistical_significance/significance_cutoffs.py, and generated aggregate-data category CSVs derived from the copied Sam exports under leaderboards/stat_significance_sam_export_20260522T233929/. scripts/recompute_claims.py verifies shared instance IDs and recomputes every pairwise D value plus mean and median D; scripts/validate_release.py validates category partition/count consistency."
     },
     {
       "directory": "creeping_overfitting",
@@ -102,6 +108,14 @@
       "notes": "Includes sanitized config, per-task/overall summaries, and one row per official grid episode. Excludes datasets, checkpoints, videos, and full training/eval directories."
     },
     {
+      "directory": "leaderboards",
+      "owner": "public leaderboard CSV snapshots",
+      "public_status": "included",
+      "claim_ids": ["leaderboard_csv_snapshots", "statistical_significance_sam_exports"],
+      "source": "/home/ripl/workspace/leaderboards at commit 725613ff4e10f2725de3ac4ebcdbff28fc39586b",
+      "notes": "Includes only the selected primary and supplementary leaderboard tracker CSVs plus the five Sam official-protocol previous-SOTA exports used to generate statistical_significance/significance_categories/. Excludes raw audit folders, caches, zips, scripts, downloaded papers, weight files, and non-CSV artifacts from the source repository."
+    },
+    {
       "directory": "provenance",
       "owner": "public release provenance",
       "public_status": "included_best_effort",
@@ -113,7 +127,7 @@
   "validation": {
     "recompute_script": "scripts/recompute_claims.py",
     "release_validation_script": "scripts/validate_release.py",
-      "expected_public_recompute": [
+    "expected_public_recompute": [
       "LIBERO Goal pairwise D from 5x5k shared-instance rows",
       "DSD 91/96",
       "SimplerEnv fixed-grid summaries from rows",
@@ -121,6 +135,7 @@
       "CALVIN combined summaries from per-sequence rows",
       "LIBERO Layer 2 policy-level summary from released summary CSVs",
       "shortcut-solvability result summaries from per-trial/per-sequence rows",
+      "statistical-significance category CSV partition and source-row count consistency",
       "provenance manifest schema and explicit unknown/best_effort statuses"
     ],
     "expected_intentional_exclusions": [

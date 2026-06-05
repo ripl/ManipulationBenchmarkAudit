@@ -16,6 +16,7 @@ This repository contains lightweight public artifacts for the manipulation bench
 ├── statistical_significance/
 ├── creeping_overfitting/
 ├── data_source_dependency/
+├── leaderboards/
 ├── provenance/
 ├── scripts/
 ├── CLAIMS.md
@@ -28,10 +29,11 @@ This repository contains lightweight public artifacts for the manipulation bench
 ## Included Diagnostics
 
 1. `shortcut_solvability/`: LIBERO and CALVIN DINO+MLP/task-id shortcut-solvability summaries, configs, and compact per-trial/per-sequence outcomes.
-2. `statistical_significance/`: LIBERO Goal five-policy `5k` shared-instance outcome rows, policy summaries, pairwise-disagreement summary, and shared init-state/config provenance.
+2. `statistical_significance/`: LIBERO Goal five-policy `5k` shared-instance outcome rows, policy summaries, pairwise-disagreement summary, aggregate leaderboard significance-category CSVs, cutoff reference code, and shared init-state/config provenance.
 3. `creeping_overfitting/`: SimplerEnv fixed-grid and Protocol A-E rows/summaries, CALVIN resampled-pose and fresh-sequence rows/summaries, and LIBERO Layer 2 summaries.
 4. `data_source_dependency/`: scripted-demo WidowX data-source-dependency summaries and official `4 x 24` grid trial outcomes.
-5. `provenance/`: best-effort package/environment provenance and checkpoint identity manifests, with unrecoverable exact fields marked unknown.
+5. `leaderboards/`: copied public leaderboard CSV snapshots and the Sam official-protocol previous-SOTA exports used for the significance category tables.
+6. `provenance/`: best-effort package/environment provenance and checkpoint identity manifests, with unrecoverable exact fields marked unknown.
 
 ## Exclusions
 
@@ -46,7 +48,7 @@ python scripts/recompute_claims.py
 python scripts/validate_release.py
 ```
 
-`recompute_claims.py` recomputes the included headline numbers from public files. `validate_release.py` also parses CSV/JSON/YAML files, checks excluded artifact types, scans for high-risk credential patterns, validates the provenance manifests, verifies `SHA256SUMS`, and verifies the expected top-level package shape.
+`recompute_claims.py` recomputes the included headline numbers from public files. `validate_release.py` also parses CSV/JSON/YAML files, checks excluded artifact types, scans for high-risk credential patterns, validates the leaderboard allowlist, validates the statistical-significance category partition, validates the provenance manifests, verifies `SHA256SUMS`, and verifies the expected top-level package shape.
 
 ## Contact
 

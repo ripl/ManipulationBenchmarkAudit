@@ -1,0 +1,321 @@
+paper_name,libero_spatial,libero_object,libero_goal,libero_long10,libero_spatial_prev_sota,libero_object_prev_sota,libero_goal_prev_sota,libero_long10_prev_sota
+TAIL: Task-specific Adapters for Imitation Learning with Large Pretrained Models,,,,70.0,,,,48.0
+A Probabilistic Model for Skill Acquisition with Switching Latent Feedback Controllers,,,83.0,,,,69.0,
+BAKU: An Efficient Transformer for Multi-Task Policy Learning,,,,86.0,,,,68.0
+Depth Helps: Improving Pre-trained RGB-based Policy with Depth Information Injection,71.2,78.6,66.4,36.4,69.6,86.2,64.8,28.0
+Diffusion Transformer Policy,84.2,96.3,85.4,63.8,84.9,92.5,84.6,53.7
+Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning,,,,92.0,,,,73.0
+EXTRACT: Efficient Policy Learning by Extracting Transferrable Robot Skills from Offline Data,,,,,,,,
+GRAPE: Generalizing Robot Policy via Preference Alignment,85.0,92.1,83.1,57.2,84.2,88.6,82.9,52.6
+MaIL: Improving Imitation Learning with Mamba,53.8,81.5,56.5,41.7,47.3,81.2,51.8,37.3
+Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals,78.5,87.5,73.5,64.8,71.8,72.0,76.3,47.3
+OpenVLA: An Open-Source Vision-Language-Action Model,84.7,88.4,79.2,53.7,78.9,92.5,84.6,51.1
+Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation,,,,87.7,,,,77.3
+Quantization-Aware Imitation-Learning for Resource-Efficient Robotic Control,84.4,83.6,76.4,50.4,83.6,83.8,76.6,50.8
+QueST: Self-Supervised Skill Abstractions for Learning Continuous Control,,,,68.8,,,,59.3
+Robo-MUTUAL: Robotic Multimodal Task Specification via Unimodal Learning,72.0,93.9,62.9,,44.1,63.9,5.0,
+Task-agnostic Lifelong Robot Learning with Retrieval-based Weighted Local Adaptation,39.83,62.33,62.33,,15.67,56.5,52.33,
+TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies,84.6,85.2,75.1,54.1,82.6,83.8,70.4,45.7
+3D Dynamics-Aware Manipulation: Endowing Manipulation Policies with 3D Foresight,96.4,98.0,94.8,92.0,94.0,94.8,91.6,86.4
+4D-VLA: Spatiotemporal Vision-Language-Action Pretraining with Cross-Scene Calibration,88.9,95.2,90.9,79.1,88.2,92.5,84.6,55.5
+ActDistill: General Action-Guided Self-Derived Distillation for Efficient Vision-Language-Action Models,81.8,85.8,72.4,55.8,84.4,86.6,76.4,53.2
+Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation,99.4,98.0,96.4,91.2,98.6,98.2,96.6,94.8
+ActionSink: Toward Precise Robot Manipulation with Dynamic Integration of Action Flow,72.83,72.67,80.00,47.00,69.17,68.0,77.83,39.33
+AsyncVLA: Asynchronous Flow Matching for Vision-Language-Action Models,98.4,99.2,98.6,93.4,98.8,98.8,98.2,92.4
+Atomic Action Slicing: Planner-Aligned Options for Generalist VLA Agents,,,95.3,88.8,,,94.2,83.8
+Audio-VLA: Adding Contact Audio Perception to Vision-Language-Action Model for Robotic Manipulation,98.3,98.5,98.2,95.4,97.6,98.4,97.9,94.5
+BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization,96.7,96.7,95.0,95.0,95.0,98.3,98.3,95.0
+Balancing Signal and Variance: Adaptive Offline RL Post-Training for VLA Flow Models,95.8,95.0,94.9,82.6,95.6,94.3,94.4,81.4
+Beyond Human Demonstrations: Diffusion-Based Reinforcement Learning to Generate Data for VLA Training,83.40,99.00,83.80,63.00,80.4,92.0,83.2,66.0
+BitVLA: 1-bit Vision-Language-Action Models for Robotics Manipulation,96.6,99.0,95.4,92.8,97.6,98.8,97.9,94.5
+Bridging Scale Discrepancies in Robotic Control via Language-Based Action Representations,84.8,90.0,82.2,55.4,84.7,92.5,84.6,53.7
+CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision,95.2,99.2,94.2,83.8,96.2,98.3,96.2,90.7
+CoA-VLA: Improving Vision-Language-Action Models via Visual-Textual Chain-of-Affordance,85.3,93.1,85.8,55.0,84.7,92.5,84.6,53.7
+CogVLA: Cognition-Aligned Vision-Language-Action Model via Instruction-Driven Routing &amp; Sparsification,98.6,98.8,96.6,95.4,98.0,98.8,97.9,94.5
+Compressor-VLA: Instruction-Guided Visual Token Compression for Efficient Robotic Manipulation,98.8,99.2,96.4,94.8,99.0,98.8,97.9,94.5
+Conditioning Matters: Training Diffusion Policies is Faster Than You Think,97.5,99.1,93.8,88.7,97.6,98.8,97.9,94.5
+Confidence Calibration in Vision-Language-Action Models,,,,,,,,
+CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models,87.5,91.6,87.6,69.0,84.7,92.5,84.6,53.7
+CronusVLA: Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling,97.3,99.6,96.9,94.0,97.6,98.4,97.9,94.5
+Cross-Platform Scaling of Vision-Language-Action Models from Edge to Cloud GPUs,98.0,99.5,96.0,94.0,96.2,98.3,96.2,90.7
+D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI,95.8,98.4,98.6,93.6,98.0,98.4,97.9,94.5
+Decoupled Action Expert: Confining Task Knowledge to the Conditioning Pathway,87.1,98.6,82.0,68.9,89.5,93.1,78.3,56.2
+DeepThinkVLA: Enhancing Reasoning Capability of Vision-Language-Action Models,96.6,99.0,96.4,96.2,96.8,98.8,95.8,92.0
+Dejavu: Towards Experience Feedback Learning for Embodied Intelligence,98.2,98.2,97.6,94.6,97.5,97.9,96.6,92.0
+DepthVLA: Enhancing Vision-Language-Action Models with Depth-Aware Spatial Reasoning,96.4,98.0,95.8,89.2,97.5,98.8,95.8,89.5
+DiG-Flow: Discrepancy-Guided Flow Matching for Robust VLA Models,99.2,99.0,98.6,96.4,98.8,98.4,98.0,94.5
+Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies,97.2,98.6,97.4,92.0,96.9,98.8,96.2,92.0
+Distributional Diffusion Models with Scoring Rules,,,,,,,,
+Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy,97.4,94.8,93.2,83.6,84.9,92.5,84.6,53.7
+Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered,60.2,71.2,47.0,26.6,88.4,85.8,81.0,55.8
+Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone,97.6,98.8,97.2,95.0,97.6,98.8,97.9,94.5
+dVLA: Diffusion Vision-Language-Action Model with Multimodal Chain-of-Thought,97.4,97.9,98.2,92.2,97.2,98.8,97.4,92.0
+E0: Enhancing Generalization and Fine-Grained Control in VLA Models via Tweedie Discrete Diffusion,97.2,99.4,95.0,92.2,96.8,98.8,97.2,89.6
+EmbodiedMAE: A Unified 3D Multi-Modal Representation for Robot Manipulation,,,,,,,,
+"End-to-end Listen, Look, Speak and Act",90.8,95.8,86.4,84.4,96.4,96.8,88.6,69.0
+EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation,91.2,97.7,85.0,80.0,84.7,92.5,84.6,78.6
+Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment,92.7,97.7,96.3,92.3,96.8,98.8,95.8,90.6
+EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models,95.4,97.4,95.8,94.4,96.8,98.8,95.8,92.0
+ExpReS-VLA: Specializing Vision-Language-Action Models Through Experience Replay and Retrieval,93.1,93.9,95.4,72.3,95.2,97.5,96.3,95.6
+Fast ECoT: Efficient Embodied Chain-of-Thought via Thoughts Reuse,85,83,83,69,84.0,87.0,84.0,57.0
+FAST: Efficient Action Tokenization for Vision-Language-Action Models,,,,,,,,
+FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization,98.0,99.4,98.6,95.4,98.8,98.8,98.0,94.5
+Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success,97.6,98.4,97.9,94.5,96.8,98.8,95.8,87.7
+FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies,97.5,99.1,96.1,94.9,98.0,98.8,97.9,94.5
+Focusing on What Matters: Object-Agent-centric Tokenization for Vision Language Action models,87.3,89.1,82.1,55.9,84.7,92.5,84.6,53.7
+FreqPolicy: Efficient Flow-based Visuomotor Policy via Frequency Consistency,97.0,98.6,96.0,87.6,96.6,98.6,97.8,90.6
+From Grounding to Manipulation: Case Studies of Foundation Model Integration in Embodied Robotic Systems,92.2,95.4,89.4,74.6,96.8,98.8,95.8,85.2
+GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model,95.0,100.0,99.0,93.0,98.0,100.0,98.0,93.0
+GeoPredict: Leveraging Predictive Kinematics and 3D Gaussian Geometry for Precise VLA Manipulation,98.0,98.2,95.7,94.0,97.5,98.8,95.8,93.2
+Goal-oriented Backdoor Attack against Vision-Language-Action Models via Physical Objects,97.5,99.1,95.5,87.3,96.8,98.8,95.8,85.2
+H-GAR: A Hierarchical Interaction Framework via Goal-Driven Observation-Action Refinement for Robotic Manipulation,,,,94.0,,,,92.0
+"HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",98.8,99.4,97.4,96.4,98.4,98.8,97.9,94.5
+HiMoE-VLA: Hierarchical Mixture-of-Experts for Generalist Vision-Language-Action Policies,98.2,99.4,98.6,94.8,97.6,98.8,97.9,94.5
+How Do VLAs Effectively Inherit from VLMs?,82,92,89,83,97.0,99.0,96.0,85.0
+Hybrid Training for Vision-Language-Action Models,94.0,97.2,96.2,89.4,96.4,97.8,91.4,84.8
+HyperVLA: Efficient Inference in Vision-Language-Action Models via Hypernetworks,95,94,92,74,85.0,88.0,85.0,54.0
+IDAGC: Adaptive Generalized Human-Robot Collaboration via Human Intent Estimation and Multimodal Policy Learning,,,,91.0,,,,85.0
+iFlyBot-VLA Technical Report,,,93.0,,89.9,88.4,95.0,72.9
+Interactive Post-Training for Vision-Language-Action Models,98.6,98.6,99.0,93.8,97.6,98.8,97.9,92.9
+InternVLA-M1: A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy,98.0,99.0,93.8,92.6,98.0,98.8,95.8,90.6
+"Knowledge Insulating Vision-Language-Action Models: Train Fast, Run Fast, Generalize Better",98.0,97.8,95.6,85.8,97.6,98.8,97.9,94.5
+LaDi-WM: A Latent Diffusion-based World Model for Predictive Manipulation,,,,68.7,,,,53.6
+LatBot: Distilling Universal Latent Actions for Vision-Language-Action Models,99.0,98.8,98.6,95.4,98.8,98.4,98.0,93.4
+Latent Action Pretraining Through World Modeling,99.0,100.0,96.0,94.0,98.8,100.0,98.0,92.4
+Leave No Observation Behind: Real-time Correction for VLA Action Chunks,,,,,,,,
+LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action Models,,,,,,,,
+LIBERO-PRO: Towards Robust and Fair Evaluation of Vision-Language-Action Models Beyond Memorization,,,,,,,,
+LoLA: Long Horizon Latent Action Learning for General Robot Manipulation,99.6,99.6,97.2,88.2,91.4,97.8,94.0,85.4
+Mantis: A Versatile Vision-Language-Action Model with Disentangled Visual Foresight,98.8,99.2,94.4,94.2,98.2,98.8,95.8,94.0
+MAP-VLA: Memory-Augmented Prompting for Vision-Language-Action Model in Robotic Manipulation,96.3,98.4,95.4,83.4,93.5,97.4,91.5,76.4
+MAPS: Preserving Vision-Language Representations via Module-Wise Proximity Scheduling for Better Vision-Language-Action Generalization,6.0,14.0,0.0,8.0,3.0,9.0,7.0,7.0
+Masked Generative Policy for Robotic Control,,,,82.0,,,,68.0
+MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation,98.4,98.4,96.4,93.4,97.2,98.8,95.8,88.8
+MergeVLA: Cross-Skill Model Merging Toward a Generalist Vision-Language-Action Agent,94.8,94.6,91.8,79.4,99.6,99.6,98.2,96.4
+MetaVLA: Unified Meta Co-training For Efficient Embodied Adaption,89.9,88.9,78.7,59.8,98.8,98.2,98.0,92.4
+Mixture of Horizons in Action Chunking,98.8,100.0,98.8,98.4,99.4,99.6,98.8,97.6
+Multimodal Reinforcement Learning with Adaptive Verifier for AI Agents,91.2,93.2,87.8,63.8,93.6,89.2,89.6,67.8
+NORA: A Small Open-Sourced Generalist Vision Language Action Model for Embodied Tasks,92.2,95.4,89.4,74.6,88.2,89.9,79.2,55.5
+PixelVLA: Advancing Pixel-level Understanding in Vision-Language-Action Model,88.5,90.0,85.8,82.6,88.2,96.3,87.6,69.0
+Reflection-Based Task Adaptation for Self-Improving VLA,92.0,93.4,85.2,63.6,96.4,96.8,88.6,60.2
+Reinforcement Fine-Tuning of Flow-Matching Policies for Vision-Language-Action Models,97.2,97.3,89.4,65.3,96.4,96.8,88.6,60.2
+RESample: A Robust Data Augmentation Framework via Exploratory Sampling for Robotic Manipulation,96.4,96.4,91.4,87.4,95.2,97.6,91.2,79.8
+Resolving State Ambiguity in Robot Manipulation via Adaptive Working Memory Recoding,,,,84.7,,,,85.2
+Rethinking Latent Redundancy in Behavior Cloning: An Information Bottleneck Approach for Robot Manipulation,70.67,52.00,83.83,8.67,68.0,43.0,76.17,15.83
+RetoVLA: Reusing Register Tokens for Spatial Reasoning in Vision-Language-Action Models,76.2,71.8,80.4,50.4,75.8,70.8,80.4,50.4
+RLinf-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models,98.93,99.67,98.32,93.55,51.61,50.2,49.4,11.9
+RoboNeuron: A Middle-Layer Infrastructure for Agent-Driven Orchestration in Embodied AI,98.8,98.0,97.6,94.4,98.6,97.6,97.2,95.8
+Robotic VLA Benefits from Joint Learning with Motion Image Diffusion,98.4,99.2,96.0,96.2,98.8,98.8,98.0,92.4
+RynnVLA-002: A Unified Vision-Language-Action and World Model,99.0,99.8,96.4,94.4,97.6,98.4,97.9,94.5
+Saliency-Aware Quantized Imitation Learning for Efficient Robotic Control,83.9,83.5,76.3,49.2,84.0,83.9,76.6,50.7
+Self-Improving Vision-Language-Action Models with Data Generation via Residual RL,99.5,99.1,98.9,,95.2,99.1,87.4,
+SemanticVLA: Semantic-Aligned Sparsification and Enhancement for Efficient Robotic Manipulation,98.6,99.6,97.6,94.8,97.6,98.8,97.9,94.5
+SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning,99.4,99.1,99.2,98.5,96.8,98.8,95.8,92.0
+SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics,90,96,92,71,90.0,92.5,95.0,73.0
+Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos,92.6,97.2,94.2,85.6,91.4,97.6,94.0,85.6
+Spatial Forcing: Implicit Spatial Representation Alignment for Vision-language-action Model,99.4,99.6,98.8,96.0,98.4,99.8,98.2,96.6
+SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model,88.2,89.9,78.6,55.5,84.7,92.5,84.6,54.1
+Spec-VLA: Speculative Decoding for Vision-Language-Action Models with Relaxed Acceptance,85.8,85.0,74.4,55.0,85.0,89.0,78.0,52.0
+SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning,97.4,95.8,97.7,93.4,99.0,98.8,97.9,94.5
+STAR: Learning Diverse Robot Skill Abstractions through Rotation-Augmented Vector Quantization,95.5,98.3,95.0,88.5,88.7,90.3,84.6,69.1
+Survey of Vision-Language-Action Models for Embodied Manipulation,,,,,,,,
+TGRPO: Fine-tuning Vision-Language-Action Model via Trajectory-wise Group Relative Policy Optimization,90.4,92.2,81.0,59.2,88.5,92.1,83.1,57.2
+"The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning",98.4,98.4,98.2,94.6,97.6,98.8,95.8,92.0
+"Think Twice, Act Once: Token-Aware Compression and Action Reuse for Efficient Inference in Vision-Language-Action Models",82.6,86.6,78.8,46.8,84.2,86.4,75.4,51.4
+Token Expand-Merge: Training-Free Token Compression for Vision-Language-Action Models,99.2,96.5,97.0,93.8,99.0,97.7,97.9,94.5
+Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process,94.1,95.7,91.2,89.6,97.5,96.8,91.6,89.5
+Unified Video Action Model,,,,90.0,,,,85.0
+Unified Vision-Language-Action Model,95.4,98.8,93.6,94.0,96.4,96.8,88.6,69.0
+UniVLA: Learning to Act Anywhere with Task-centric Latent Actions,96.5,96.8,95.6,92.0,84.7,92.5,84.6,78.6
+Verifier-free Test-Time Sampling for Vision Language Action Models,97.2,98.0,94.5,82.7,97.4,95.4,95.6,79.6
+ViPRA: Video Prediction for Robot Actions,,,,79.0,,,,92.0
+VITA-VLA: Efficiently Teaching Vision-Language Models to Act via Action Expert Distillation,98.0,99.8,97.9,93.5,96.4,96.8,88.6,69.0
+VLA-0: Building State-of-the-Art VLAs with Zero Modification,97.0,97.8,96.2,87.6,98.0,98.8,97.9,94.5
+VLA-Cache: Efficient Vision-Language-Action Manipulation via Adaptive Token Caching,98.3,97.5,98.3,95.4,97.8,97.6,97.6,94.2
+VLA-Pruner: Temporal-Aware Dual-Level Visual Token Pruning for Efficient Vision-Language-Action Inference,97.3,98.6,96.8,92.6,95.8,98.7,96.7,90.7
+VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards in World Simulators,94.4,94.4,95.4,80.2,91.2,96.2,93.8,77.2
+VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning,90.2,91.8,82.2,59.8,96.4,96.8,88.6,60.2
+VLAs are Confined yet Capable of Generalizing to Novel Instructions,,,,,97.0,98.0,95.0,
+VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers,,,75.2,60.0,,,75.8,51.0
+When Robots Obey the Patch: Universal Transferable Patch Attacks on Vision-Language-Action Models,,,,,,,,
+WorldVLA: Towards Autoregressive Action World Model,87.6,96.2,83.4,60.0,96.9,98.1,95.5,94.0
+X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model,98.2,98.6,97.8,97.6,98.4,98.8,97.9,94.5
+3D-Mix for VLA: A Plug-and-Play Module for Integrating VGGT-based 3D Information into Vision-Language-Action Models,,,,,,,,
+"A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",97.4,99.8,97.6,91.4,98.8,98.8,98.0,94.5
+AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models,99.6,100.0,98.8,99.1,99.4,99.8,99.2,98.5
+ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models,98.6,99.0,99.4,97.0,98.8,99.2,98.0,95.0
+"Act, Think or Abstain: Complexity-Aware Adaptive Inference for Vision-Language-Action Models",80.00,90.00,86.67,60.00,73.33,90.0,83.33,53.33
+Action Draft and Verify: A Self-Verifying Framework for Vision-Language-Action Model,98.4,99.4,98.2,97.6,97.8,98.4,96.6,93.0
+ActionCodec: What Makes for Good Action Tokenizers,97.2,99.8,97.6,94.8,97.0,97.8,96.2,87.6
+Adaptive Action Chunking at Inference-time for Vision-Language-Action Models,94.4,98.6,94.2,92.8,94.0,97.8,96.8,93.4
+AdaWorldPolicy: World-Model-Driven Diffusion Policy with Online Adaptive Learning for Robotic Manipulation,,,,96.0,,,,94.0
+"Altered Thoughts, Altered Actions: Probing Chain-of-Thought Vulnerabilities in VLA Robotic Manipulation",95.8,98.3,96.7,90.7,,,,
+AnchorRefine: Synergy-Manipulation Based on Trajectory Anchor and Residual Refinement for Vision-Language-Action Models,,,,97.4,,,,95.8
+ATA: Bridging Implicit Reasoning with Attention-Guided and Action-Guided Inference for Vision-Language Action Models,98.6,98.8,90.8,63.2,97.6,98.2,89.0,60.8
+AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots,98.8,98.8,97.2,96.2,98.8,98.8,98.0,92.4
+AtomVLA: Scalable Post-Training for Robotic Manipulation via Predictive Latent World Models,96.4,99.6,97.6,94.4,97.3,98.8,95.8,89.6
+Being-H0.7: A Latent World-Action Model from Egocentric Videos,,,,,,,,
+Beyond Attention Magnitude: Leveraging Inter-layer Rank Consistency for Efficient Vision-Language-Action Models,,,,,,,,
+Beyond Dense Futures: World Models as Structured Planners for Robotic Manipulation,95.4,98.0,93.4,92.2,97.5,98.0,91.6,89.6
+Causal World Modeling for Robot Control,98.5,99.6,97.2,98.5,98.2,99.6,97.9,97.6
+CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies,98.0,99.2,96.6,92.0,98.8,100.0,98.3,97.6
+Chain of World: World Model Thinking in Latent Motion,97.2,97.8,94.6,92.8,97.5,99.2,95.8,92.0
+CKT-WAM: Parameter-Efficient Context Knowledge Transfer Between World Action Models,99.0,99.8,98.6,97.8,98.8,100.0,98.2,97.6
+CLaD: Planning with Grounded Foresight via Cross-Modal Latent Dynamics,97.3,95.7,94.3,94.7,98.2,98.6,97.6,93.8
+CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos,97.0,92.0,93.0,82.0,93.0,94.0,95.0,77.0
+Conservative Offline Robot Policy Learning via Posterior-Transition Reweighting,98.0,99.2,97.6,97.0,98.8,99.0,98.6,96.8
+ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation,98.8,99.8,98.0,95.6,98.8,98.8,98.0,94.5
+CORAL: Scalable Multi-Task Robot Learning via LoRA Experts,99.6,99.8,99.0,98.8,99.6,99.8,98.6,97.6
+CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors,92.0,95.8,90.8,85.2,98.0,94.1,95.0,82.0
+Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning,98.1,100.0,98.2,97.6,98.8,98.8,98.0,95.4
+COT-FM: Cluster-wise Optimal Transport Flow Matching,96.1,,,94.5,97.1,,,93.5
+CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding,97.6,98.1,91.7,93.6,94.4,97.6,93.0,90.6
+DepthCache: Depth-Guided Training-Free Visual Token Merging for Vision-Language-Action Model Inference,98.9,97.1,98.3,96.1,99.0,97.6,99.0,96.5
+Device-Conditioned Neural Architecture Search for Efficient Robotic Manipulation,97.2,98.0,97.2,93.9,97.6,98.4,97.9,94.5
+DFM-VLA: Iterative Action Refinement for Robot Manipulation via Discrete Flow Matching,96.8,98.8,94.4,92.6,97.5,96.8,91.6,89.5
+DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control,98.4,99.6,98.6,97.6,98.8,98.8,98.0,95.4
+DualCoT-VLA: Visual-Linguistic Chain of Thought via Parallel Reasoning for Vision-Language-Action Models,99.4,99.8,97.8,98.2,98.8,99.0,99.8,96.6
+DyQ-VLA: Temporal-Dynamic-Aware Quantization for Embodied Vision-Language-Action Models,84.7,87.8,78.5,53.4,84.7,88.4,79.2,53.7
+DySL-VLA: Efficient Vision-Language-Action Model Inference via Dynamic-Static Layer-Skipping for Robot Manipulation,98.0,98.2,97.0,92.6,97.6,98.4,97.9,94.5
+Efficient Long-Horizon Vision-Language-Action Models via Static-Dynamic Disentanglement,97.8,97.6,96.2,92.4,96.2,98.3,96.2,90.7
+EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training,,,,54.2,,,,55.8
+Fast-dVLA: Accelerating Discrete Diffusion VLA to Real-Time Performance,97.0,98.8,97.6,92.8,98.8,98.8,98.0,92.4
+Fast-ThinkAct: Efficient Vision-Language-Action Reasoning via Verbalizable Latent Planning,92.0,97.2,90.2,79.4,88.3,95.4,87.6,77.2
+Fast-WAM: Do World Action Models Need Test-time Future Imagination?,98.2,100.0,97.0,95.2,98.8,99.8,98.0,98.5
+FASTER: Rethinking Real-Time Flow VLAs,99.0,99.2,97.6,92.0,98.8,99.4,98.0,96.8
+FlowHijack: A Dynamics-Aware Backdoor Attack on Flow-Matching Vision-Language-Action Models,96.0,98.8,97.8,82.8,96.8,98.8,95.8,85.2
+From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges,96.8,98.6,97.4,92.4,97.8,99.2,97.9,95.0
+From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models,97.2,98.6,95.8,96.6,97.6,98.8,97.9,94.5
+Generative Control as Optimization: Time Unconditional Flow Matching for Adaptive and Robust Robotic Control,97.4,98.6,96.4,92.4,98.8,98.8,98.0,92.4
+GIPO: Gaussian Importance Sampling Policy Optimization,,,,,,,,
+GST-VLA: Structured Gaussian Spatial Tokens for 3D Depth-Aware Vision-Language-Action Models,98.2,97.4,97.1,92.6,97.1,95.8,95.1,89.5
+HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness,78.0,71.0,73.0,47.0,80.4,62.4,71.0,46.2
+Hierarchical Latent Action Model,,,,94.0,,,,91.0
+HoloBrain-0 Technical Report,97.2,99.6,97.6,95.2,98.8,98.8,98.0,97.6
+Improving Robustness of Vision-Language-Action Models by Restoring Corrupted Visual Inputs,,,,89.0,,,,90.0
+JEPA-VLA: Video Predictive Embedding is Needed for VLA Models,97.2,98.0,95.6,94.8,96.2,98.3,96.2,90.7
+Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild,96.0,98.2,97.4,96.0,96.8,98.8,95.8,94.0
+KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models,83.7,72.3,75.6,48.8,85.2,70.0,76.2,50.2
+LaMP: Learning Vision-Language-Action Policies with 3D Scene Flow as Latent Motion Prior,99.4,99.8,97.4,96.7,98.8,98.8,98.0,94.5
+LangForce: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries,99.2,99.6,99.4,95.2,98.8,98.8,98.0,94.5
+LangGap: Diagnosing and Closing the Language Gap in Vision-Language-Action Models,97.0,98.0,77.0,70.0,97.0,100.0,97.0,81.0
+Language-Grounded Decoupled Action Representation for Robotic Manipulation,95.2,99.2,93.6,86.4,96.4,99.2,94.2,83.8
+LAR-MoE: Latent-Aligned Routing for Mixture of Experts in Robotic Imitation Learning,98.0,99.0,96.0,88.0,98.0,98.0,98.0,92.0
+Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference,99.0,97.67,97.33,93.67,98.83,98.17,97.0,93.83
+Learning Diffusion Policy from Primitive Skills for Robot Manipulation,98.3,99.8,95.6,93.8,95.2,95.4,91.9,87.5
+Learning Physics from Pretrained Video Models: A Multimodal Continuous and Sequential World Interaction Models for Robotic Manipulation,91.0,99.6,93.8,78.8,96.0,97.0,89.0,77.0
+Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching,85.6,86.2,76.6,59.2,84.4,86.6,76.4,53.2
+LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models,,,98.8,,,,98.8,
+Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System,98.6,99.4,98.0,92.8,98.8,98.8,98.0,94.4
+$M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills,97.8,99.0,97.2,87.0,94.4,95.4,91.6,82.0
+Mask World Model: Predicting What Matters for Robust Robot Policy Learning,98.8,100.0,98.2,96.0,98.2,99.2,95.8,94.4
+MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation,98.8,99.8,98.0,95.2,98.8,99.4,98.0,95.0
+MoIRA: Modular instruction routing architecture for multi-task robotics,94,,93,,90.0,,97.0,
+MVP-LAM: Learning Action-Centric Latent Action via Cross-Viewpoint Reconstruction,,,94.8,90.8,,,95.8,85.2
+Neural Implicit Action Fields: From Discrete Waypoints to Continuous Functions for Vision-Language-Action Models,98.2,100.0,98.0,95.5,97.1,98.8,95.8,93.5
+Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models,,,,,,,,
+OAT: Ordered Action Tokenization,,,,56.3,,,,48.2
+OFlow: Injecting Object-Aware Temporal Flow Matching for Robust Robotic Manipulation,98.0,99.0,95.0,94.5,98.0,99.0,95.8,94.0
+OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL,99.2,99.2,98.5,93.5,98.8,98.8,98.0,92.4
+OxyGen: Unified KV Cache Management for Vision-Language-Action Models under Multi-Task Parallelism,98.0,,97.4,93.2,98.8,,98.0,92.4
+PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation,95.2,96.7,94.3,91.8,88.2,93.1,87.6,69.0
+Phantom Menace: Exploring and Enhancing the Robustness of VLA Models Against Physical Sensor Attacks,97.6,98.4,97.9,94.5,97.6,98.8,97.9,94.5
+PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance,99.6,99.6,98.4,95.2,99.6,99.6,98.8,96.4
+Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation,93.2,98.6,98.1,95.3,96.1,98.2,96.4,90.5
+Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models,98.6,99.2,99.2,95.4,98.8,100.0,98.0,98.5
+ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation,88.2,96.4,87.2,66.2,84.7,96.3,85.4,78.6
+QuantVLA: Scale-Calibrated Post-Training Quantization for Vision-Language-Action Models,98.5,98.0,98.0,96.0,98.5,99.0,97.5,93.5
+QVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization,96.2,97.6,96.4,93.8,97.6,98.4,97.9,94.5
+Recurrent-Depth VLA: Implicit Test-Time Compute Scaling of Vision-Language-Action Models via Latent Iterative Reasoning,92.0,99.0,96.0,84.8,96.4,97.2,91.0,79.4
+Red-Teaming Vision-Language-Action Models via Quality Diversity Prompt Generation for Robust Robot Policies,,,,,,,,
+Reshaping Action Error Distributions for Reliable Vision-Language-Action Models,99.8,100.0,98.2,95.6,99.4,99.2,96.4,92.8
+Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration,97.6,99.8,98.2,,97.6,98.8,98.0,
+Rethinking Progression of Memory State in Robotic Manipulation: An Object-Centric Perspective,,,83.0,,,,75.5,
+"Rethinking Visual-Language-Action Model Scaling: Alignment, Mixture, and Regularization",98.4,96.2,98.4,98.2,98.8,98.2,98.0,92.4
+ReViP: Mitigating False Completion in Vision-Language-Action Models with Vision-Proprioception Rebalance,99.0,98.8,96.6,92.2,98.0,98.8,95.8,92.0
+RLDX-1 Technical Report,98.0,99.3,98.4,95.3,,,,94.4
+RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models,93.8,96.0,87.2,70.0,88.3,91.6,87.6,70.9
+RoboGate: Adaptive Failure Discovery for Safe Robot Policy Deployment via Two-Stage Boundary-Focused Sampling,97.65,,,,,,,
+Robotic Manipulation is Vision-to-Geometry Mapping ($f(v) \rightarrow G$): Vision-Geometry Backbones over Language and Video Models,99.0,99.6,98.6,95.0,98.8,100.0,99.0,97.6
+ROCKET: Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models,98.2,99.8,98.8,97.0,99.4,99.8,98.8,96.6
+SaiVLA-0: Cerebrum--Pons--Cerebellum Tripartite Architecture for Compute-Aware Vision-Language-Action,99.8,100.0,98.2,97.8,98.8,98.8,98.0,94.5
+"Say, Dream, and Act: Learning Video World Models for Instruction-Driven Robot Manipulation",99.4,99.2,98.2,95.4,97.6,98.8,97.9,94.5
+"See, Plan, Rewind: Progress-Aware Vision-Language-Action Models for Robust Robotic Manipulation",93.2,95.4,93.2,85.4,96.4,96.8,88.6,77.2
+Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery,,,,90.7,,,,87.8
+Shallow-π: Knowledge Distillation for Flow-based VLAs,99.0,98.0,97.0,93.0,99.0,99.0,98.0,95.0
+Shifting Uncertainty to Critical Moments: Towards Reliable Uncertainty Quantification for VLA Model,,,,,,,,
+SimVLA: A Simple VLA Baseline for Robotic Manipulation,99.6,99.8,98.6,96.4,98.8,99.2,98.0,97.6
+SmoothVLA: Aligning Vision-Language-Action Models with Physical Constraints via Intrinsic Smoothness Optimization,85.6,94.2,84.0,58.3,84.5,92.1,82.9,52.9
+SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation,99.0,100.0,99.0,97.0,98.0,100.0,97.6,97.0
+Speedup Patch: Learning a Plug-and-Play Policy to Accelerate Embodied Manipulation,97.2,99.4,98.6,94.0,98.8,98.8,98.0,93.2
+ST-$π$: Structured SpatioTemporal VLA for Robotic Manipulation,98.4,98.3,96.9,94.3,98.8,98.2,96.8,92.4
+Stable Language Guidance for Vision-Language-Action Models,98.6,99.2,95.8,92.8,96.8,98.8,97.2,89.6
+StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing,97.8,98.6,96.2,93.8,97.6,98.8,97.9,94.5
+StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems,99.0,99.8,98.5,94.1,98.8,98.8,98.0,94.5
+StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation,96.6,96.6,95.4,91.0,98.8,99.2,98.0,94.6
+StreamVLA: Breaking the Reason-Act Cycle via Completion-State Gating,99.2,99.4,98.6,96.6,98.8,98.8,98.0,95.6
+STRONG-VLA: Decoupled Robustness Learning for Vision-Language-Action Models under Multimodal Perturbations,,,,,,,,
+TempoFit: Plug-and-Play Layer-Wise Temporal KV Memory for Long-Horizon Vision-Language-Action Manipulation,,,,96.6,,,,96.4
+Test-Time Perturbation Learning with Delayed Feedback for Vision-Language-Action Models,90.0,72.0,86.0,59.0,85.0,92.0,85.0,55.0
+The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling,,,,70.0,,,,
+Thinking in Text and Images: Interleaved Vision--Language Reasoning Traces for Long-Horizon Robot Manipulation,97.8,95.8,97.0,92.4,97.0,97.8,96.2,87.6
+Towards Long-Lived Robots: Continual Learning VLA Models via Reinforcement Fine-Tuning,98.2,99.2,95.8,89.0,98.0,98.8,95.8,91.1
+Towards Practical World Model-based Reinforcement Learning for Vision-Language-Action Models,87.8,96.6,92.8,66.8,86.0,92.4,90.8,61.2
+TTQ: Activation-Aware Test-Time Quantization to Accelerate LLM Inference On The Fly,94.5,100.0,93.5,87.5,97.5,100.0,97.0,96.5
+Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming,,,,,78.4,80.4,29.2,74.0
+Universal Pose Pretraining for Generalizable Vision-Language-Action Policies,96.5,98.0,97.1,92.4,98.8,98.8,98.0,92.4
+Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models,96.6,97.6,98.2,96.4,99.2,99.6,99.4,97.4
+VISTA: Enhancing Visual Conditioning via Track-Following Preference Optimization in Vision-Language-Action Models,84.8,91.6,84.2,57.0,88.2,92.5,84.6,55.5
+VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model,97.8,99.2,97.2,95.0,97.6,98.8,97.9,94.5
+VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model,,,,94.0,,,,90.6
+vla-eval: A Unified Evaluation Harness for Vision-Language-Action Models,,,,,,,,
+VLA-GSE: Boosting Parameter-Efficient Fine-Tuning in VLA with Generalized and Specialized Experts,98.8,99.8,98.2,96.8,99.0,99.2,98.0,97.6
+VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models,97.6,99.6,98.4,95.6,99.4,98.4,98.3,95.4
+VLA-InfoEntropy: A Training-Free Vision-Attention Information Entropy Approach for Vision-Language-Action Models Inference Acceleration and Success,86.4,87.6,79.4,52.2,85.8,86.6,76.4,55.0
+VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model,96.2,99.6,97.2,95.8,98.8,98.8,98.0,94.5
+VLA-Thinker: Boosting Vision-Language-Action Models through Thinking-with-Image Reasoning,98.7,99.0,95.2,96.9,96.8,98.8,95.8,94.0
+VolumeDP: Modeling Volumetric Representation for Manipulation Policy Learning,90.7,95.9,89.9,78.7,81.1,92.5,76.2,57.6
+When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs,98.8,98.2,98.0,92.4,98.8,98.8,98.0,94.5
+World Model for Robot Learning: A Comprehensive Survey,,,,,,,,
+World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems,99.6,100.0,98.6,94.4,98.8,99.2,98.0,95.0
+World2Act: Latent Action Post-Training via Skill-Compositional World Models,98.0,100.0,98.3,98.0,99.1,100.0,99.2,97.6
+WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL,81.5,82.0,77.5,35.8,67.8,48.0,54.6,14.5
+Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution,98.8,100.0,98.8,97.2,99.7,99.8,99.2,94.9
+You've Got a Golden Ticket: Improving Generative Robot Policies With A Single Noise Vector,93.4,100.0,94.4,,80.4,92.0,81.6,
+One Token Per Frame: Reconsidering Visual Bandwidth in World Models for VLA Policy,98.2,99.6,99.0,95.6,98.8,98.8,98.0,92.4
+Predictive but Not Plannable: RC-aux for Latent World Models,,,,,,,97.0,
+OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation,98.9,99.0,97.4,95.9,98.8,99.6,98.0,96.8
+PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations,98.8,99.8,98.4,96.6,98.8,99.8,99.0,97.6
+TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models,97.8,99.2,97.4,97.0,98.0,99.0,97.5,94.4
+Do World Action Models Generalize Better than VLAs? A Robustness Study,,,,,,,,
+Global Prior Meets Local Consistency: Dual-Memory Augmented Vision-Language-Action Model for Efficient Robotic Manipulation,99.6,99.8,98.4,96.4,98.8,98.8,98.0,94.5
+VLANeXt: Recipes for Building Strong VLA Models,99.0,99.2,96.6,94.6,97.6,99.1,97.9,94.9
+HBVLA: Pushing 1-Bit Post-Training Quantization for Vision-Language-Action Models,89.3,97.8,91.3,82.7,87.2,76.0,89.6,62.0
+IVRA: Improving Visual-Token Relations for Robot Action Policy with Training-Free Hint-Based Guidance,97.3,99.9,97.6,94.9,97.2,99.3,96.9,94.5
+VAT: Vision Action Transformer by Unlocking Full Representation of ViT,98.8,99.4,97.6,96.8,97.6,98.8,97.9,94.5
+Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling Approach,,,,96.6,,,,94.8
+Much Ado About Noising: Dispelling the Myths of Generative Robotic Control,97.6,95.8,95.2,82.2,97.2,97.4,95.0,81.6
+Continually Evolving Skill Knowledge in Vision Language Action Model,,,,,,,98.0,92.4
+Expertise Need Not Monopolize: Action-Specialized Mixture of Experts for Vision-Language-Action Learning,99.6,95.0,97.2,92.0,96.4,98.8,95.8,85.2
+3D CAVLA: Leveraging Depth and 3D Context to Generalize Vision Language Action Models for Unseen Tasks,98.2,99.8,98.2,96.1,97.6,98.8,97.9,94.5
+VGGT-$\Omega$,99.3,99.2,99.0,96.7,97.6,98.8,97.9,94.5
+IntentVLA: Short-Horizon Intent Modeling for Aliased Robot Manipulation,99.3,99.7,98.1,97.4,99.2,99.6,98.0,95.4
+BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning,90.6,97.6,93.2,85.2,89.8,96.6,94.2,53.7
+FrameSkip: Learning from Fewer but More Informative Frames in VLA Training,98.6,99.0,98.2,93.8,98.8,99.0,98.0,94.4
+Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs,96.8,99.2,94.4,84.6,96.8,98.8,95.8,86.6
+"Guide, Think, Act: Interactive Embodied Reasoning in Vision-Language-Action Models",99.0,98.8,98.4,97.6,98.8,99.0,98.0,97.6
+DreamAvoid: Critical-Phase Test-Time Dreaming to Avoid Failures in VLA Policies,99.0,98.5,99.0,94.5,99.0,99.0,98.0,92.0
+Beyond World-Frame Action Heads: Motion-Centric Action Frames for Vision-Language-Action Models,98.6,98.8,98.4,95.0,97.6,98.8,97.9,94.5
+Learning Action Manifold with Multi-view Latent Priors for Robotic Manipulation,98.8,99.8,99.0,96.6,99.4,99.8,98.8,97.6
+See What Matters: Differentiable Grid Sample Pruning for Generalizable Vision-Language-Action Model,98.6,98.8,98.4,95.2,98.4,98.8,97.6,92.8
+Premover: Fast Vision-Language-Action Control by Acting Before Instructions Are Complete,98.6,99.1,93.7,88.9,99.4,97.4,94.9,88.3
+From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation,93.0,99.5,99.5,96.0,88.2,95.0,92.0,91.5
+Dynamic Execution Commitment of Vision-Language-Action Models,98.6,99.4,98.0,96.2,99.1,99.8,98.2,95.6
+ALAM: Algebraically Consistent Latent Action Model for Vision-Language-Action Models,99.2,99.6,99.0,94.4,98.8,98.8,98.0,96.0
+PriorVLA: Prior-Preserving Adaptation for Vision-Language-Action Models,99.4,99.8,99.4,97.6,98.8,98.8,98.0,94.5
+CapVector: Learning Transferable Capability Vectors in Parametric Space for Vision-Language-Action Models,98.4,98.4,96.8,94.8,97.2,99.2,96.8,94.2
+LoopVLA: Learning Sufficiency in Recurrent Refinement for Vision-Language-Action Models,95.0,100.0,97.4,91.0,98.2,98.8,97.2,91.3
+ECHO: Continuous Hierarchical Memory for Vision-Language-Action Models,98.3,98.8,98.6,93.5,98.0,98.4,96.4,92.4
+ElasticFlow: One-Step Physics-Consistent Policy with Elastic Time Horizons for Language-Guided Manipulation,98.4,99.3,98.7,97.6,98.8,99.4,97.9,96.4
+ForgeVLA: Federated Vision-Language-Action Learning without Language Annotations,72.6,98.6,55.2,63.6,68.6,97.6,28.8,52.8
+Failing Forward: Adaptive Failure-Informed Learning for Vision-Language-Action Models,99.8,99.7,98.1,95.8,98.8,98.2,98.0,92.4

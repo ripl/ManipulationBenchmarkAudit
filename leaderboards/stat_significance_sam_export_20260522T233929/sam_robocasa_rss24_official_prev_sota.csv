@@ -1,0 +1,33 @@
+paper_name,robocasa_rss24_success_rate,robocasa_rss24_prev_sota_success_rate
+A Hierarchical Spatiotemporal Action Tokenizer for In-Context Imitation Learning in Robotics,59.0,53.0
+Adaptive Action Chunking at Inference-time for Vision-Language-Action Models,62.0,61.2
+Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization,53.9,42.4
+Being-H0.7: A Latent World-Action Model from Egocentric Videos,62.1,67.1
+Conservative Offline Robot Policy Learning via Posterior-Transition Reweighting,55.6,54.2
+Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning,67.1,66.4
+Joint-Aligned Latent Action: Towards Scalable VLA Pretraining in the Wild,35.42,35.17
+Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference,63.16,66.22
+Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images,45.5,39.3
+Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation,46.3,52.9
+"Rethinking Visual-Language-Action Model Scaling: Alignment, Mixture, and Regularization",54.7,45.1
+Robot-DIFT: Distilling Diffusion Features for Geometrically Consistent Visuomotor Control,49.0,38.0
+Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising,79.2,67.1
+World2Act: Latent Action Post-Training via Skill-Compositional World Models,72.6,70.5
+Action Tokenizer Matters in In-Context Imitation Learning,53.0,48.9
+AnchorDream: Repurposing Video Diffusion for Embodiment-Aware Robot Data Synthesis,30.7,33.3
+DiG-Flow: Discrepancy-Guided Flow Matching for Robust VLA Models,52.6,41.4
+FLARE: Robot Learning with Implicit World Modeling,70.1,60.8
+GeoPredict: Leveraging Predictive Kinematics and 3D Gaussian Geometry for Precise VLA Manipulation,52.4,42.3
+GR00T N1: An Open Foundation Model for Generalist Humanoid Robots,49.6,43.2
+GUIDES: Guidance Using Instructor-Distilled Embeddings for Pre-trained Robot Policy Enhancement,27.0,
+GWM: Towards Scalable Gaussian World Models for Robotic Manipulation,39.25,28.75
+Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos,45.8,41.4
+Towards Fusing Point Cloud and Visual Representations for Imitation Learning,50.5,28.8
+Verifier-free Test-Time Sampling for Vision Language Action Models,62.9,61.2
+Video Generators are Robot Policies,66.0,57.0
+A Dual Process VLA: Efficient Robotic Manipulation Leveraging VLM,57.3,47.6
+RoboTron-Mani: All-in-One Multimodal Large Model for Robotic Manipulation,47.4,40.9
+RLDX-1 Technical Report,70.6,66.2
+Is the Future Compatible? Diagnosing Dynamic Consistency in World Action Models,68.0,67.4
+Scaling Short-Term Memory of Visuomotor Policies for Long-Horizon Tasks,43.0,
+Being-H0: Vision-Language-Action Pretraining from Large-Scale Human Videos,23.8,21.0

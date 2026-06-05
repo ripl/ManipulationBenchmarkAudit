@@ -1,0 +1,123 @@
+paper_name,simplerenv_widowx_bridge_success_rate,simplerenv_widowx_bridge_prev_sota_success_rate
+3D-Mix for VLA: A Plug-and-Play Module for Integrating VGGT-based 3D Information into Vision-Language-Action Models,68.23,64.58
+AC^2-VLA: Action-Context-Aware Adaptive Computation in Vision-Language-Action Models for Efficient Robotic Manipulation,54.5,51.3
+ActionCodec: What Makes for Good Action Tokenizers,65.2,67.9
+AnchorVLA4D: an Anchor-Based Spatial-Temporal Vision-Language-Action Model for Robotic Manipulation,64.6,71.9
+AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models,61.5,52.1
+Beyond Dense Futures: World Models as Structured Planners for Robotic Manipulation,75.0,69.8
+Chain of World: World Model Thinking in Latent Motion,76.0,74.0
+ConLA: Contrastive Latent Action Learning from Human Videos for Robotic Manipulation,64.6,63.5
+CORAL: Scalable Multi-Task Robot Learning via LoRA Experts,97.9,95.8
+DAM-VLA: A Dynamic Action Model-Based Vision-Language-Action Framework for Robot Manipulation,71.0,57.0
+DTP: A Simple yet Effective Distracting Token Pruning Framework for Vision-Language Action Models,74.0,68.7
+EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training,56.3,60.4
+Fast-dVLA: Accelerating Discrete Diffusion VLA to Real-Time Performance,59.3,55.2
+FPC-VLA: A vision-language-action framework with a supervisor for failure prediction and correction,64.6,51.8
+From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges,57.9,71.7
+FutureVLA: Joint Visuomotor Prediction for Vision-Language-Action Model,71.9,61.9
+LaMP: Learning Vision-Language-Action Policies with 3D Scene Flow as Latent Motion Prior,79.2,74.0
+LangForce: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries,66.5,57.1
+Latent Reasoning VLA: Latent Thinking and Prediction for Vision-Language-Action Models,68.8,62.5
+Learning Human-Intention Priors from Large-Scale Human Demonstrations for Robotic Manipulation,66.1,43.8
+MVP-LAM: Learning Action-Centric Latent Action via Cross-Viewpoint Reconstruction,60.4,57.3
+"OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",45.8,60.4
+Reshaping Action Error Distributions for Reliable Vision-Language-Action Models,61.5,53.1
+RoboStream: Weaving Spatio-Temporal Reasoning with Memory in Vision-Language Models for Robotics,74.8,58.3
+RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation,29.0,18.5
+SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models,49.0,41.7
+SimVLA: A Simple VLA Baseline for Robotic Manipulation,95.8,95.8
+StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing,70.2,67.8
+StarVLA-$\alpha$: Reducing Complexity in Vision-Language-Action Systems,64.6,62.0
+Thinking in Text and Images: Interleaved Vision--Language Reasoning Traces for Long-Horizon Robot Manipulation,59.4,42.7
+Towards Long-Lived Robots: Continual Learning VLA Models via Reinforcement Fine-Tuning,69.0,65.5
+TwinBrainVLA: Unleashing the Potential of Generalist VLMs for Embodied Tasks via Asymmetric Mixture-of-Transformers,64.5,57.1
+VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model,57.3,57.3
+VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models,60.4,60.4
+VP-VLA: Visual Prompting as an Interface for Vision-Language-Action Models,58.3,57.1
+World Guidance: World Modeling in Condition Space for Action Generation,63.5,62.5
+Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution,79.2,72.7
+Anyprefer: An Agentic Framework for Preference Data Synthesis,43.5,28.5
+AsyncVLA: Asynchronous Flow Matching for Vision-Language-Action Models,70.8,62.5
+BLURR: A Boosted Low-Resource Inference for Vision-Language-Action Models,71.0,70.0
+Bridging Scale Discrepancies in Robotic Control via Language-Based Action Representations,35.3,26.7
+ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context,70.7,59.0
+CronusVLA: Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling,60.4,61.9
+DepthVLA: Enhancing Vision-Language-Action Models with Depth-Aware Spatial Reasoning,74.8,58.8
+Developing Vision-Language-Action Model from Egocentric Videos,27.0,23.0
+Dexbotic: Open-Source Vision-Language-Action Toolbox,84.4,71.9
+Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies,37.5,36.5
+Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone,60.4,55.5
+DualVLA: Building a Generalizable Embodied Agent via Partial Decoupling of Reasoning and Action,36.1,34.8
+Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation,56.2,53.8
+EO-1: An Open Unified Embodied Foundation Model for General Robot Control,72.7,69.2
+Executable Analytic Concepts as the Missing Link Between VLM Insight and Precise Manipulation,86.1,58.3
+F1: A Vision-Language-Action Model Bridging Understanding and Generation to Actions,59.4,42.7
+FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization,87.9,76.5
+FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies,45.0,30.0
+FlowVLA: Visual Chain of Thought-based Motion Reasoning for Vision-Language-Action Models,74.0,65.6
+From Seeing to Doing: Bridging Reasoning and Decision for Robotic Manipulation,40.6,48.3
+From Spatial to Actions: Grounding Vision-Language-Action Model in Spatial Foundation Priors,56.3,42.7
+Generalist Robot Manipulation beyond Action Labeled Data,68.2,56.8
+HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy,63.5,52.1
+Hierarchical Vision Language Action Model Using Success and Failure Demonstrations,40.6,38.9
+How Do VLAs Effectively Inherit from VLMs?,49.0,27
+Hume: Introducing System-2 Thinking in Visual-Language-Action Model,72.6,48.3
+HyperVLA: Efficient Inference in Vision-Language-Action Models via Hypernetworks,40.0,36
+Interleave-VLA: Enhancing Robot Manipulation with Interleaved Image-Text Instructions,71.0,69.2
+LatBot: Distilling Universal Latent Actions for Vision-Language-Action Models,87.5,71.9
+LLaDA-VLA: Vision Language Diffusion Action Models,55.5,51.3
+LoLA: Long Horizon Latent Action Learning for General Robot Manipulation,71.9,51.3
+Magma: A Foundation Model for Multimodal AI Agents,35.4,15.9
+ManiAgent: An Agentic Framework for General Robotic Manipulation,86.8,55.7
+MAPS: Preserving Vision-Language Representations via Module-Wise Proximity Scheduling for Better Vision-Language-Action Generalization,42.5,69.2
+MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation,71.9,68.4
+mimic-video: Video-Action Models for Generalizable Robot Control Beyond VLAs,56.3,45.0
+More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks,60.5,56.2
+ORV: 4D Occupancy-centric Robot Video Generation,38.5,36.2
+PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Physical Intelligence,67.4,67.6
+$\pi_\texttt{RL}$: Online RL Fine-tuning for Flow-based Vision-Language-Action Models,86.7,67.2
+PixelVLA: Advancing Pixel-level Understanding in Vision-Language-Action Model,33.8,34.4
+QDepth-VLA: Quantized Depth Prediction as Auxiliary Supervision for Vision-Language-Action Models,68.5,60.0
+ReBot: Scaling Robot Learning with Real-to-Sim-to-Real Robotic Video Synthesis,23.2,16.0
+Reinforcing Action Policies by Prophesying,51.0,42.7
+RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models,47.5,38.5
+SITCOM: Scaling Inference-Time COMpute for VLAs,72.0,48.0
+SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation,58.3,42.7
+SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration,57.29,51.3
+Spatial Traces: Enhancing VLA Models with Spatial-Temporal Understanding,38.1,34.1
+SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model,42.7,31.3
+SPEAR-1: Scaling Beyond Robot Demonstrations via 3D Understanding,57.3,42.7
+STARE-VLA: Progressive Stage-Aware Reinforcement for Fine-Tuning Vision-Language-Action Models,98.0,92.5
+STORM: Search-Guided Generative World Models for Robotic Manipulation,51.0,47.9
+ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning,43.8,35.4
+Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process,62.5,59.4
+Unified Vision-Language-Action Model,69.8,42.7
+Unifying Perception and Action: A Hybrid-Modality Pipeline with Implicit Visual Chain-of-Thought for Robotic Action Generation,71.5,69.8
+UniVLA: Learning to Act Anywhere with Task-centric Latent Actions,47.9,31.3
+Verifier-free Test-Time Sampling for Vision Language Action Models,50.3,46.9
+VideoVLA: Video Generators Can Be Generalizable Robot Manipulators,53.1,53.1
+villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models,62.5,62.0
+ViPRA: Video Prediction for Robot Actions,62.5,42.7
+VLA-Reasoner: Empowering Vision-Language-Action Models with Reasoning via Online Monte Carlo Tree Search,41.8,34.0
+Vlaser: Vision-Language-Action Model with Synergistic Embodied Reasoning,65.1,54.9
+VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting,58.3,51.3
+X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model,95.8,71.9
+CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation,51.3,26.7
+Latent Action Pretraining from Videos,57.3,51.0
+PIVOT-R: Primitive-Driven Waypoint-Aware World Model for Robotic Manipulation,39.3,29.5
+Scaling Robot Policy Learning via Zero-Shot Labeling with Foundation Models,2.8,4.2
+What matters in building vision–language–action models for generalist robots,50.0,29.5
+OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation,79.3,76.0
+OFlow: Injecting Object-Aware Temporal Flow Matching for Robust Robotic Manipulation,67.1,59.8
+PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations,77.1,61.9
+ReFineVLA: Multimodal Reasoning-Aware Generalist Robotic Policies via Teacher-Guided Fine-Tuning,47.7,42.7
+RLDX-1 Technical Report,71.9,62.0
+ST4VLA: Spatially Guided Training for Vision-Language-Action Models,73.2,61.9
+InternVLA-M1: A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy,71.7,61.9
+Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling Approach,55.5,48.0
+GRAPE: Generalizing Robot Policy via Preference Alignment,45.5,32.0
+DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models,48.9,51.3
+Green-VLA: Staged Vision-Language-Action Model for Generalist Robots,80.5,73.2
+Split Decisions: VLM-Guided Action Sampling for Efficient RL Exploration,55.0,27.5
+"OmniSAT: Compact Action Token, Faster Auto Regression",55.2,42.7
+RoboInter: A Holistic Intermediate Representation Suite Towards Robotic Manipulation,50.0,55.2

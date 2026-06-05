@@ -1,0 +1,20 @@
+paper_name,robotwin2_hard_randomized_success_rate,robotwin2_hard_randomized_50clean_500rand_prev_sota_success_rate
+A Pragmatic VLA Foundation Model,86.68,76.76
+ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning,85.08,72.84
+AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps,92.1,91.8
+Being-H0.7: A Latent World-Action Model from Egocentric Videos,89.6,91.8
+Causal World Modeling for Robot Control,91.55,87.0
+DexWorldModel: Causal Latent World Modeling towards Automated Learning of Embodied Tasks,94.00,91.55
+Fast-WAM: Do World Action Models Need Test-time Future Imagination?,91.78,91.50
+GigaWorld-Policy: An Efficient Action-Centered World--Action Model,85,87
+HoloBrain-0 Technical Report,92.30,87.02
+"InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation",89.6,87.0
+JoyAI-RA 0.1: A Foundation Model for Robotic Autonomy,89.28,87.02
+MotuBrain: An Advanced World Action Model for Robot Control,96.1,91.8
+Motus: A Unified Latent Action World Model,87.02,72.84
+Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models,92.69,91.78
+STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation,93.3,91.55
+StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems,88.3,76.8
+Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising,90.7,87.0
+Universal Pose Pretraining for Generalizable Vision-Language-Action Policies,79.1,76.16
+When to Trust Imagination: Adaptive Action Execution for World Action Models,88.2,85.66
